@@ -3,6 +3,10 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Westbank Road, Stena Line",1,54.629773,-5.8945513,
 "Upper Whitewell, Throne Centre",0,54.6562271,-5.9330249,
 "Upper Whitewell, Throne Centre",1,54.6562271,-5.9330249,
-"Abbeycentre, Longwood Road",0,54.6565592, -5.9168404,
-"Abbeycentre, Longwood Road",1,54.6549145, -5.9197935,
-"Abbeycentre, Shore entrance (Dunnes)",0,54.6565592, -5.9168404,
+"Abbeycentre, Longwood Road",0,54.6565592,-5.9168404,Shore Road
+"Abbeycentre, Longwood Road",1,54.6549145,-5.9197935,Shore Road
+"Abbeycentre, Shore entrance (Dunnes)",0,54.6565592,-5.9168404,Shore Road
+"Merville Garden Village, Garden Village",0,54.655065,-5.911417,Shore Road
+"Merville Garden Village, Garden Village",1,54.6557655,-5.9108631,Shore Road
+"Lower Whitewell, White City",0,54.6466689,-5.9210381,Shore Road
+"Lower Whitewell, White City",1,54.6469599,-5.9211682,Shore Road
