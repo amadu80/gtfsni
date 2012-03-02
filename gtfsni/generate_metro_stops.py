@@ -13,7 +13,7 @@ except ImportError:
         return os.path.join('data', path)
     get_app_data = get_pkg_data
 
-FIXES_FILE = get_pkg_data('data/translink/metro_stops_fixes.csv')
+FIXES_FILE = get_pkg_data('translink/metro_stops_fixes.csv')
 
 assert os.path.exists(FIXES_FILE), "missing data file - %s" % FIXES_FILE
 
