@@ -17,3 +17,4 @@ parts
 .pydevproject
 lifestyle.sql
 .settings/
+dist
