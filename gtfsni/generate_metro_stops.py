@@ -195,6 +195,12 @@ def find_info(stop, direction):
         return info
 
 def main():
+    """
+    Load the stops and coordinate data as derived from the map view pages to
+    the REFERENCE_STOPS dict. Load the stop names as derived from the timetable
+    pages to TIMETABLE_STOPS list. Load the manually-added stop coordinates to
+    FIXES dict.
+    """
     load_reference_stops()
     load_timetable_stops()
     load_manual_fixes()
