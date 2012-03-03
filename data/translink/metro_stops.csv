@@ -326,8 +326,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6199,-5.85903,"Newtownbreda, Tesco",Tesco,Inbound
 54.6662307,-5.9038746,"Northern Regional College, FHE",Whiteabbey,Outbound
 54.6680207,-5.9019837,"Northern Regional College, FHE",Whiteabbey,Inbound
-,,"Odyssey, Complex",,Outbound
-,,"Odyssey, Complex",,Inbound
+54.603171,-5.9168726,"Odyssey, Complex",Sydenham Road,Outbound
+54.6030343,-5.9166473,"Odyssey, Complex",Sydenham Road,Inbound
 ,,"Old Holywood Road, Kennelbridge",,Outbound
 ,,"Old Holywood Road, Kennelbridge",,Inbound
 54.6249,-5.94859,"Oldpark, Westland Road",Westland Road,Outbound
@@ -345,17 +345,17 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5701,-6.02362,"Poleglass Est, Pembrooke Loop",Pembrooke Loop,Inbound
 ,,"Prince Charles Way, Glebe Rd",,Outbound
 54.5449335,-5.9245491,"Purdysburn Road, Best's Hill",Saintfield Road,Outbound
-54.5450922, -5.9243399,"Purdysburn Road, Best's Hill",Saintfield Road,Inbound
+54.5450922,-5.9243399,"Purdysburn Road, Best's Hill",Saintfield Road,Inbound
 ,,"Queens Road, Science Park",,Outbound
 ,,"Queens Road, Science Park",,Inbound
 ,,"Queens University, Elmwood Ave",,Outbound
 ,,"Queens University, Elmwood Ave",,Inbound
 54.5559,-5.91536,"Raphael Street, Bus stop",,Outbound
-,,"Rathcoole, Diamond",,Outbound
-,,"Rathcoole, Diamond",,Inbound
-,,"Rathcoole, Primary School",,Outbound
-,,"Rathcoole, Primary School",,Inbound
-,,"Rathcoole, Rathcoole Drive",,Outbound
+54.6632103,-5.9179536,"Rathcoole, Diamond",Newtownabbey,Outbound
+54.6634585,-5.9165722,"Rathcoole, Diamond",Newtownabbey,Inbound
+54.6672638,-5.9283203,"Rathcoole, Primary School",Newtownabbey,Outbound
+54.6672793,-5.9276927,"Rathcoole, Primary School",Newtownabbey,Inbound
+54.6588865,-5.9118944,"Rathcoole, Rathcoole Drive",Shore Road,Outbound
 ,,"Rathfern, Lacken Walk",,Outbound
 ,,"Rathfern, Lacken Walk",,Inbound
 54.5771,-5.91809,"Ravenhill Rd, Ormeau Rd",Ormeau Road,Outbound

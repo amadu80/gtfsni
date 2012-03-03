@@ -34,6 +34,14 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Tesco, Abbey Retail Park Church Road",1,54.65839,-5.9236827,Newtownabbey
 "Northern Regional College, FHE",0,54.6662307,-5.9038746,Whiteabbey
 "Northern Regional College, FHE",1,54.6680207,-5.9019837,Whiteabbey
-"Purdysburn Road, Best's Hill",1,54.5450922, -5.9243399,Saintfield Road
+"Purdysburn Road, Best's Hill",1,54.5450922,-5.9243399,Saintfield Road
 "Purdysburn Road, Best's Hill",0,54.5449335,-5.9245491,Saintfield Road
+"Odyssey, Complex",0,54.603171,-5.9168726,Sydenham Road
+"Odyssey, Complex",1,54.6030343,-5.9166473,Sydenham Road
+"Rathcoole, Diamond",1,54.6634585,-5.9165722,Newtownabbey
+"Rathcoole, Diamond",0,54.6632103,-5.9179536,Newtownabbey
+"Rathcoole, Primary School",1,54.6672793,-5.9276927,Newtownabbey
+"Rathcoole, Primary School",0,54.6672638,-5.9283203,Newtownabbey
+"Rathcoole, Rathcoole Drive",0,54.6588865,-5.9118944,Shore Road
+"Rathcoole, Rathcoole Drive",1,54.6590603,-5.911991,Shore Road
 
