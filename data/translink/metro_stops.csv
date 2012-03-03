@@ -257,11 +257,11 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5559,-5.91536,"Jordanstown Road, Bus stop",,Inbound
 54.5814,-5.97978,"Kennedy Cen, Falls Road",Falls Road,Outbound
 54.5804,-5.98032,"Kennedy Cen, Falls Road",Falls Road,Inbound
-,,"Kings Road, Barnetts Rd",,Outbound
-,,"Kings Road, Barnetts Rd",,Inbound
+54.5915731,-5.8535886,"Kings Road, Barnetts Rd",,Outbound
+54.5915731,-5.8535886,"Kings Road, Barnetts Rd",,Inbound
 54.585,-5.84309,"Kings Road, Gilnahirk Rd",Gilnahirk Road,Outbound
-,,"Kings Road, Sperrin Park",,Outbound
-,,"Kings Road, Sperrin Park",,Inbound
+54.5886233,-5.8314899,"Kings Road, Sperrin Park",Dundonald,Outbound
+54.588485,-5.8321872,"Kings Road, Sperrin Park",Dundonald,Inbound
 54.6199,-5.85903,"Knocknagoney, Tesco",Tesco,Outbound
 54.6199,-5.85903,"Knocknagoney, Tesco",Tesco,Inbound
 54.5655,-6.00007,"Ladybrook, Turning Circle",Ladybrook Cross,Outbound
@@ -297,14 +297,14 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5716,-5.94738,"Malone Road, Cranmore Park",Malone Road,Inbound
 54.5559,-5.98072,"Malone, Erinvale Avenue",Erinvale Ave,Outbound
 54.5559,-5.98072,"Malone, Erinvale Avenue",Erinvale Ave,Inbound
-,,"Massey Avenue, Castle Hill",,Outbound
-,,"Massey Avenue, Castle Hill",,Inbound
+54.6035967,-5.8416313,"Massey Avenue, Castle Hill",,Outbound
+54.6035967,-5.8416313,"Massey Avenue, Castle Hill",,Inbound
 54.655065,-5.911417,"Merville Garden Village, Garden Village",Shore Road,Outbound
 54.6557655,-5.9108631,"Merville Garden Village, Garden Village",Shore Road,Inbound
 54.5897,-5.99287,"Monagh Road, Bus stop",Monagh Road,Outbound
 54.5899,-5.99291,"Monagh Road, Bus stop",Monagh Road,Inbound
-,,"Monkstown, Devenish Drive",,Outbound
-,,"Monkstown, Devenish Drive",,Inbound
+54.6861079,-5.907163,"Monkstown, Devenish Drive",Monkstown,Outbound
+54.6869164,-5.9082936,"Monkstown, Devenish Drive",Monkstown,Inbound
 54.5773,-5.88792,"Montgomery Rd, Bus stop",Montgomery Road,Outbound
 54.5773,-5.88792,"Montgomery Rd, Stirling Ave",Montgomery Road,Outbound
 54.5773,-5.88792,"Montgomery Rd, Stirling Ave",Montgomery Road,Inbound
@@ -339,11 +339,11 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5559,-5.91536,"Owenreagh Drive, Bus stop",,Outbound
 54.5887,-5.96252,"Park Centre, Donegall Road",Donegall Road,Outbound
 54.5887,-5.96252,"Park Centre, Donegall Road",Donegall Road,Inbound
-,,"Park Centre, Mall Entrance",,Outbound
-,,"Park Centre, Mall Entrance",,Inbound
+54.588785,-5.9633285,"Park Centre, Mall Entrance",,Outbound
+54.588785,-5.9633285,"Park Centre, Mall Entrance",,Inbound
 54.5701,-6.02362,"Poleglass Est, Pembrooke Loop",Pembrooke Loop,Outbound
 54.5701,-6.02362,"Poleglass Est, Pembrooke Loop",Pembrooke Loop,Inbound
-,,"Prince Charles Way, Glebe Rd",,Outbound
+54.6718891,-5.9437752,"Prince Charles Way, Glebe Rd",Carnmoney,Outbound
 54.5449335,-5.9245491,"Purdysburn Road, Best's Hill",Saintfield Road,Outbound
 54.5450922,-5.9243399,"Purdysburn Road, Best's Hill",Saintfield Road,Inbound
 ,,"Queens Road, Science Park",,Outbound
@@ -356,12 +356,12 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6672638,-5.9283203,"Rathcoole, Primary School",Newtownabbey,Outbound
 54.6672793,-5.9276927,"Rathcoole, Primary School",Newtownabbey,Inbound
 54.6588865,-5.9118944,"Rathcoole, Rathcoole Drive",Shore Road,Outbound
-,,"Rathfern, Lacken Walk",,Outbound
-,,"Rathfern, Lacken Walk",,Inbound
+54.6754687,-5.9156603,"Rathfern, Lacken Walk",Newtownabbey,Outbound
+54.6753353,-5.9156334,"Rathfern, Lacken Walk",Newtownabbey,Inbound
 54.5771,-5.91809,"Ravenhill Rd, Ormeau Rd",Ormeau Road,Outbound
 54.5769,-5.91813,"Ravenhill Rd, Ormeau Rd",Ormeau Road,Inbound
-,,"Redburn, Firmount Crescent",,Outbound
-,,"Redburn, Firmount Crescent",,Inbound
+54.627593,-5.8407676,"Redburn, Firmount Crescent",Holywood,Outbound
+54.6273399,-5.8404887,"Redburn, Firmount Crescent",Holywood,Inbound
 54.5559,-5.91536,"Roseberry Road, Bus stop",,Outbound
 54.5709663,-5.9014271,"Rosetta Rd, Wynchurch Ave",Rosetta Road,Outbound
 54.5704,-5.91195,"Rosetta, Knockbreda Road",Knockbreda Road,Outbound
@@ -381,8 +381,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5587,-5.9091,"Saintfield Rd, Mount Oriel",Saintfield Road,Outbound
 54.5587,-5.90923,"Saintfield Rd, Mount Oriel",Saintfield Road,Inbound
 54.6801,-5.97516,"Sandyknowes, Ballyhenry Road",Ballyhenry Road,Outbound
-,,"Seymour Hill, Estate Entrance",,Outbound
-,,"Seymour Hill, Estate Entrance",,Inbound
+54.5442707,-6.0135689,"Seymour Hill, Estate Entrance",Dunmurry,Outbound
+54.5448635,-6.012952,"Seymour Hill, Estate Entrance",Dunmurry,Inbound
 54.6041,-5.94965,"Shankill Road, Co-op",Shankill Road,Outbound
 54.6041,-5.94822,"Shankill Road, Co-op",Shankill Road,Inbound
 54.5766,-6.00932,"Shaws Road, Lenadoon Avenue",Shaws Road,Outbound
@@ -462,8 +462,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.629773,-5.8945513,"Westbank Road, Stena Line",,Inbound
 54.5811,-5.8663,"Whincroft Road, Bus stop",Whincroft Road,Outbound
 54.581,-5.86625,"Whincroft Road, Bus stop",Whincroft Road,Inbound
-,,"Whiteabbey, Village",,Outbound
-,,"Whiteabbey, Village",,Inbound
+54.6786572,-5.8893585,"Whiteabbey, Village",Shore Road,Outbound
+54.6784029,-5.889616,"Whiteabbey, Village",Shore Road,Inbound
 54.5559,-5.91536,"Woodbreda Park, Bus stop",,Outbound
 54.6079,-5.96312,"Woodvale Park, Bus stop",Woodvale Road,Outbound
 54.6078,-5.96293,"Woodvale Park, Bus stop",Woodvale Road,Inbound

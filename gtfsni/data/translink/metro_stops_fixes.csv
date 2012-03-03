@@ -44,4 +44,25 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Rathcoole, Primary School",0,54.6672638,-5.9283203,Newtownabbey
 "Rathcoole, Rathcoole Drive",0,54.6588865,-5.9118944,Shore Road
 "Rathcoole, Rathcoole Drive",1,54.6590603,-5.911991,Shore Road
+"Whiteabbey, Village",0,54.6786572,-5.8893585,Shore Road
+"Whiteabbey, Village",1,54.6784029,-5.889616,Shore Road
+"Redburn, Firmount Crescent",0,54.627593,-5.8407676,Holywood
+"Redburn, Firmount Crescent",1,54.6273399,-5.8404887,Holywood
+"Seymour Hill, Estate Entrance",1,54.5448635,-6.012952,Dunmurry
+"Seymour Hill, Estate Entrance",0,54.5442707,-6.0135689,Dunmurry
+"Park Centre, Mall Entrance",0,54.588785,-5.9633285,
+"Park Centre, Mall Entrance",1,54.588785,-5.9633285,
+"Rathfern, Lacken Walk",1,54.6753353,-5.9156334,Newtownabbey
+"Rathfern, Lacken Walk",0,54.6754687,-5.9156603,Newtownabbey
+"Prince Charles Way, Glebe Rd",0,54.6718891,-5.9437752,Carnmoney
+"Prince Charles Way, Glebe Rd",1,54.6718954,-5.9427881,Carnmoney
+"Massey Avenue, Castle Hill",0,54.6035967,-5.8416313,
+"Massey Avenue, Castle Hill",1,54.6035967,-5.8416313,
+"Kings Road, Sperrin Park",0,54.5886233,-5.8314899,Dundonald
+"Kings Road, Sperrin Park",1,54.588485,-5.8321872,Dundonald
+"Kings Road, Barnetts Rd",0,54.5915731,-5.8535886,
+"Kings Road, Barnetts Rd",1,54.5915731,-5.8535886,
+"Monkstown, Devenish Drive",1,54.6869164,-5.9082936,Monkstown
+"Monkstown, Devenish Drive",0,54.6861079,-5.907163,Monkstown
+
 
