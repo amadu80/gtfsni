@@ -278,7 +278,7 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5563,-5.89233,"Laurelgrove, Ballymaconaghy Road",Ballymaconaghy Road,Inbound
 54.6279,-5.97985,"Ligoniel, Mountainhill",Mountainhill Road,Outbound
 54.6279,-5.97985,"Ligoniel, Mountainhill",Mountainhill Road,Inbound
-,,"Ligoniel, Wolfhill",,Outbound
+54.6273508,-5.9859717,"Ligoniel, Wolfhill",Ligoniel Road,Outbound
 54.6219,-5.93817,"Limestone Road, Antrim Road",Antrim Road,Outbound
 54.6181,-5.93824,"Limestone Road, Antrim Road",Antrim Road,Inbound
 54.5863,-5.93982,"Lisburn Rd, City Hospital",Lisburn Road,Outbound
@@ -363,7 +363,7 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,"Redburn, Firmount Crescent",,Outbound
 ,,"Redburn, Firmount Crescent",,Inbound
 54.5559,-5.91536,"Roseberry Road, Bus stop",,Outbound
-,,"Rosetta Rd, Wynchurch Ave",,Outbound
+54.5709663,-5.9014271,"Rosetta Rd, Wynchurch Ave",Rosetta Road,Outbound
 54.5704,-5.91195,"Rosetta, Knockbreda Road",Knockbreda Road,Outbound
 54.5703,-5.91274,"Rosetta, Knockbreda Road",Knockbreda Road,Inbound
 54.5697,-5.91386,"Rosetta, St John's Church",Ormeau Road,Outbound
@@ -392,8 +392,8 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,"Shore Road, Lidl/Asda",,Outbound
 ,,"Shore Road, Lidl/Asda",,Inbound
 ,,"Shore Road, Mount Vernon Rd",,Outbound
-,,"Short Strand, Albertbridge Rd",,Outbound
-,,"Short Strand, Albertbridge Rd",,Inbound
+54.5957751,-5.9092927,"Short Strand, Albertbridge Rd",Short Strand,Outbound
+54.5955156,-5.90951,"Short Strand, Albertbridge Rd",Short Strand,Inbound
 54.5983,-5.91092,"Short Strand, Mountpottinger Link",Mountpottinger Link,Outbound
 54.5983,-5.91092,"Short Strand, Mountpottinger Link",Mountpottinger Link,Inbound
 54.5998,-5.90503,"Short Strand, Newtownards Rd",Newtownards Road,Outbound
@@ -434,8 +434,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6091,-5.87712,"Sydenham, Station",Inverary Drive,Inbound
 54.5854,-5.95693,"Tate's Avenue, Bus stop",Tates Ave,Inbound
 ,,"Tesco, Abbey Retail Park Church Road",,Outbound
-,,"Titanic Quarter, BMC",,Outbound
-,,"Titanic Quarter, BMC",,Inbound
+54.6087824,-5.9069645,"Titanic Quarter, BMC",Queens Road,Outbound
+54.6086395,-5.9068787,"Titanic Quarter, BMC",Queens Road,Inbound
 54.5559,-5.91536,"Tuleevin Drive, Bus stop",,Outbound
 ,,"Tullycarnett, Leven Drive",,Outbound
 ,,"Tullycarnett, Leven Drive",,Inbound

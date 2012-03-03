@@ -10,3 +10,11 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Merville Garden Village, Garden Village",1,54.6557655,-5.9108631,Shore Road
 "Lower Whitewell, White City",0,54.6466689,-5.9210381,Shore Road
 "Lower Whitewell, White City",1,54.6469599,-5.9211682,Shore Road
+"Ligoniel, Wolfhill",0,54.6273508,-5.9859717,Ligoniel Road
+"Ligoniel, Wolfhill",1,54.6275915,-5.9860548,Ligoniel Road
+"Rosetta Rd, Wynchurch Ave",0,54.5709663,-5.9014271,Rosetta Road
+"Rosetta Rd, Wynchurch Ave",1,54.5707742,-5.901238,Rosetta Road
+"Short Strand, Albertbridge Rd",1,54.5955156,-5.90951,Short Strand
+"Short Strand, Albertbridge Rd",0,54.5957751,-5.9092927,Short Strand
+"Titanic Quarter, BMC",1,54.6086395,-5.9068787,Queens Road
+"Titanic Quarter, BMC",0,54.6087824,-5.9069645,Queens Road
