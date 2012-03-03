@@ -1,7 +1,7 @@
 stop_lat,stop_lon,stop_name,road,direction
-,,"Abbeycentre, Longwood Road",,Outbound
-,,"Abbeycentre, Longwood Road",,Inbound
-,,"Abbeycentre, Shore entrance (Dunnes)",,Outbound
+54.6565592,-5.9168404,"Abbeycentre, Longwood Road",Shore Road,Outbound
+54.6549145,-5.9197935,"Abbeycentre, Longwood Road",Shore Road,Inbound
+54.6565592,-5.9168404,"Abbeycentre, Shore entrance (Dunnes)",Shore Road,Outbound
 ,,"Abbots Cross, Post Office",,Outbound
 ,,"Airport Road West, Heron Road",,Outbound
 ,,"Airport Road West, Heron Road",,Inbound
@@ -287,8 +287,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5682,-5.96853,"Lisburn Rd, Kings Hall",Lisburn Road,Inbound
 54.5752,-5.95557,"Lisburn Rd, Marlborough Pk",Lisburn Road,Outbound
 54.5753,-5.95569,"Lisburn Rd, Marlborough Pk",Lisburn Road,Inbound
-,,"Lower Whitewell, White City",,Outbound
-,,"Lower Whitewell, White City",,Inbound
+54.6466689,-5.9210381,"Lower Whitewell, White City",Shore Road,Outbound
+54.6469599,-5.9211682,"Lower Whitewell, White City",Shore Road,Inbound
 54.6721,-5.97476,"Mallusk Road, Ballyrobert Garage",Mallusk Road,Outbound
 54.6721,-5.97476,"Mallusk Road, Ballyrobert Garage",Mallusk Road,Inbound
 54.6802,-6.00519,"Mallusk, Parkmount",Mallusk Road,Outbound
@@ -299,8 +299,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5559,-5.98072,"Malone, Erinvale Avenue",Erinvale Ave,Inbound
 ,,"Massey Avenue, Castle Hill",,Outbound
 ,,"Massey Avenue, Castle Hill",,Inbound
-,,"Merville Garden Village, Garden Village",,Outbound
-,,"Merville Garden Village, Garden Village",,Inbound
+54.655065,-5.911417,"Merville Garden Village, Garden Village",Shore Road,Outbound
+54.6557655,-5.9108631,"Merville Garden Village, Garden Village",Shore Road,Inbound
 54.5897,-5.99287,"Monagh Road, Bus stop",Monagh Road,Outbound
 54.5899,-5.99291,"Monagh Road, Bus stop",Monagh Road,Inbound
 ,,"Monkstown, Devenish Drive",,Outbound

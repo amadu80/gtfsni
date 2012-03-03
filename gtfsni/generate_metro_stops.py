@@ -225,7 +225,7 @@ def main():
                 row['road'] = info[2]
                 found += 1
             else:
-                print name, direction
+                print "MISSING: ", name, direction
                 missing += 1
             writer.writerow(row)
     print 'found: ', found, ', missing: %s' % missing
