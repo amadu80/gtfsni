@@ -18,3 +18,9 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Short Strand, Albertbridge Rd",0,54.5957751,-5.9092927,Short Strand
 "Titanic Quarter, BMC",1,54.6086395,-5.9068787,Queens Road
 "Titanic Quarter, BMC",0,54.6087824,-5.9069645,Queens Road
+"Yorkgate, Brougham Street",0,54.6099443,-5.9244096,
+"Yorkgate, Brougham Street",1,54.6099443,-5.9244096,
+"Yorkgate, Station (bus)",0,54.6099443,-5.9244096,
+"Yorkgate, Station (bus)",1,54.6099443,-5.9244096,
+"Upper Knockbreda Rd, Tudor Drive",1,54.5732495,-5.8839351,Upper Knockbreda Road
+"Upper Knockbreda Rd, Tudor Drive",0,54.5728624,-5.8840933,Upper Knockbreda Road

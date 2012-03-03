@@ -446,8 +446,8 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,Unknown stop 805455,,Inbound
 54.5541,-6.01383,"Upper Dunmurry Road, Cherry Road",Cherry Road,Outbound
 54.5544,-6.01362,"Upper Dunmurry Road, Cherry Road",Cherry Road,Inbound
-,,"Upper Knockbreda Rd, Tudor Drive",,Outbound
-,,"Upper Knockbreda Rd, Tudor Drive",,Inbound
+54.5728624,-5.8840933,"Upper Knockbreda Rd, Tudor Drive",Upper Knockbreda Road,Outbound
+54.5732495,-5.8839351,"Upper Knockbreda Rd, Tudor Drive",Upper Knockbreda Road,Inbound
 54.555,-5.96748,"Upper Malone Road, Dub Lane",Upper Malone Road,Outbound
 54.555,-5.96748,"Upper Malone Road, Dub Lane",Upper Malone Road,Inbound
 54.5948,-5.85735,"Upper Newtownards Rd, Knock Road",Upper Newtownards Road,Outbound
@@ -468,9 +468,9 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6079,-5.96312,"Woodvale Park, Bus stop",Woodvale Road,Outbound
 54.6078,-5.96293,"Woodvale Park, Bus stop",Woodvale Road,Inbound
 54.5559,-5.91536,"Wynchurch Avenue, Bus stop",,Outbound
-,,"Yorkgate, Brougham Street",,Outbound
-,,"Yorkgate, Brougham Street",,Inbound
+54.6099443,-5.9244096,"Yorkgate, Brougham Street",,Outbound
+54.6099443,-5.9244096,"Yorkgate, Brougham Street",,Inbound
 54.609,-5.92939,"Yorkgate, North Queen Street",North Queen Street,Outbound
 54.6089,-5.929,"Yorkgate, North Queen Street",North Queen Street,Inbound
-,,"Yorkgate, Station (bus)",,Outbound
-,,"Yorkgate, Station (bus)",,Inbound
+54.6099443,-5.9244096,"Yorkgate, Station (bus)",,Outbound
+54.6099443,-5.9244096,"Yorkgate, Station (bus)",,Inbound
