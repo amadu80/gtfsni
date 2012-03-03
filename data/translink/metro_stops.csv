@@ -151,8 +151,8 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,"Connswater, Shopping Centre",,Outbound
 54.5389,-6.01351,"Conway, River Road",Ballybog Rd,Outbound
 54.5389,-6.01351,"Conway, River Road",Ballybog Rd,Inbound
-,,"Corporation St, Clarendon Dock",,Outbound
-,,"Corporation St, Clarendon Dock",,Inbound
+54.6064335,-5.922457,"Corporation St, Clarendon Dock",The Docks,Outbound
+54.606477,-5.9221673,"Corporation St, Clarendon Dock",The Docks,Inbound
 54.571,-5.89396,"Cregagh Park, Bus stop",Cregagh Road,Outbound
 54.5701,-5.89373,"Cregagh Park, Bus stop",Cregagh Road,Inbound
 54.5799,-5.89717,"Cregagh Road, Bell's Bridge",Cregagh Road,Outbound
@@ -187,7 +187,7 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,"Dunseverick Ave, Drumart Dr",,Outbound
 54.595,-5.81486,"East Link Road, Comber Road",Upper Newtownards Road,Outbound
 54.5949,-5.81479,"East Link Road, Comber Road",Upper Newtownards Road,Inbound
-,,"Elgin Street, Dunnes Stores",,Outbound
+54.5817206,-5.9242648,"Elgin Street, Dunnes Stores",Ormeau Road,Outbound
 ,,"Fairview Rd, Ballyduff Shops",,Outbound
 ,,"Fairview Rd, Beverley Shops",,Outbound
 ,,"Fairview Rd, Beverley Shops",,Inbound
@@ -236,7 +236,7 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,"Glenville, Monkstown Avenue",,Outbound
 ,,"Glenville, Monkstown Avenue",,Inbound
 54.5559,-5.91536,"Gunnell Hill, Bus stop",,Outbound
-,,"High Street, Skipper Street",,Outbound
+54.6004536,-5.9257829,"High Street, Skipper Street",City Centre,Outbound
 ,,"Hightown Road, Turning Circle",,Outbound
 ,,"Hightown Road, Turning Circle",,Inbound
 54.6228,-5.86055,"Holywood Exchange, Ikea",,Outbound
@@ -346,8 +346,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6718891,-5.9437752,"Prince Charles Way, Glebe Rd",Carnmoney,Outbound
 54.5449335,-5.9245491,"Purdysburn Road, Best's Hill",Saintfield Road,Outbound
 54.5450922,-5.9243399,"Purdysburn Road, Best's Hill",Saintfield Road,Inbound
-,,"Queens Road, Science Park",,Outbound
-,,"Queens Road, Science Park",,Inbound
+54.6119015,-5.9026355,"Queens Road, Science Park",,Outbound
+54.611392,-5.9030163,"Queens Road, Science Park",,Inbound
 ,,"Queens University, Elmwood Ave",,Outbound
 ,,"Queens University, Elmwood Ave",,Inbound
 54.5559,-5.91536,"Raphael Street, Bus stop",,Outbound
@@ -400,8 +400,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5995,-5.90351,"Short Strand, Newtownards Rd",Newtownards Road,Inbound
 54.5953,-5.91105,"Short Strand, Ravenhill Rd",Ravenhill Road,Outbound
 54.5956,-5.91178,"Short Strand, Ravenhill Rd",Ravenhill Road,Inbound
-,,"Shorts, Main Office",,Outbound
-,,"Shorts, Main Office",,Inbound
+54.6082418,-5.8915043,"Shorts, Main Office",,Outbound
+54.6082418,-5.8915043,"Shorts, Main Office",,Inbound
 54.6316,-5.97027,"Silverstream, Ballysillan Pk",Ballysillan Park,Outbound
 54.6316,-5.97027,"Silverstream, Ballysillan Pk",Ballysillan Park,Inbound
 54.6263539,-5.933843,"Somerton Road, Hospice",Fortwilliam,Outbound
@@ -437,8 +437,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6087824,-5.9069645,"Titanic Quarter, BMC",Queens Road,Outbound
 54.6086395,-5.9068787,"Titanic Quarter, BMC",Queens Road,Inbound
 54.5559,-5.91536,"Tuleevin Drive, Bus stop",,Outbound
-,,"Tullycarnett, Leven Drive",,Outbound
-,,"Tullycarnett, Leven Drive",,Inbound
+54.5852693,-5.8304733,"Tullycarnett, Leven Drive",Castlereagh,Outbound
+54.5851822,-5.8308005,"Tullycarnett, Leven Drive",Castlereagh,Inbound
 ,,"Twinbrook Est, St Mark's School",,Inbound
 54.5692,-6.00756,"Twinbrook Est, Stewartstown Rd",Stewartstown Rd,Outbound
 54.5704,-6.00582,"Twinbrook Est, Stewartstown Rd",Stewartstown Rd,Inbound

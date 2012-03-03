@@ -64,5 +64,15 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Kings Road, Barnetts Rd",1,54.5915731,-5.8535886,
 "Monkstown, Devenish Drive",1,54.6869164,-5.9082936,Monkstown
 "Monkstown, Devenish Drive",0,54.6861079,-5.907163,Monkstown
+"Tullycarnett, Leven Drive",1,54.5851822,-5.8308005,Castlereagh
+"Tullycarnett, Leven Drive",0,54.5852693,-5.8304733,Castlereagh
+"Shorts, Main Office",0,54.6082418,-5.8915043,
+"Shorts, Main Office",1,54.6082418,-5.8915043,
+"Queens Road, Science Park",1,54.611392,-5.9030163,
+"Queens Road, Science Park",0,54.6119015,-5.9026355,
+"High Street, Skipper Street",0,54.6004536,-5.9257829,City Centre
+"Elgin Street, Dunnes Stores",0,54.5817206,-5.9242648,Ormeau Road
+"Corporation St, Clarendon Dock",1,54.606477,-5.9221673,The Docks
+"Corporation St, Clarendon Dock",0,54.6064335,-5.922457,The Docks
 
 
