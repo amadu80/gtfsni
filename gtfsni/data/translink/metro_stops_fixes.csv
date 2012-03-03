@@ -24,3 +24,16 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Yorkgate, Station (bus)",1,54.6099443,-5.9244096,
 "Upper Knockbreda Rd, Tudor Drive",1,54.5732495,-5.8839351,Upper Knockbreda Road
 "Upper Knockbreda Rd, Tudor Drive",0,54.5728624,-5.8840933,Upper Knockbreda Road
+"Royal Hospital, Royal Hospitals",0,54.5955,-5.95322,Grosvenor Road
+"Royal Hospital, Royal Hospitals",1,54.5955,-5.95322,Grosvenor Road
+"Royal Avenue, Castle Court",0,54.6012305,-5.9310883,City Centre
+"Royal Avenue, Castle Court",1,54.6012305,-5.9310883,City Centre
+"Somerton Road, Hospice",0,54.6263539,-5.933843,Fortwilliam
+"Somerton Road, Hospice",1,54.6263974,-5.9337276,Fortwilliam
+"Tesco, Abbey Retail Park Church Road",0,54.6581123,-5.9237713,Newtownabbey
+"Tesco, Abbey Retail Park Church Road",1,54.65839,-5.9236827,Newtownabbey
+"Northern Regional College, FHE",0,54.6662307,-5.9038746,Whiteabbey
+"Northern Regional College, FHE",1,54.6680207,-5.9019837,Whiteabbey
+"Purdysburn Road, Best's Hill",1,54.5450922, -5.9243399,Saintfield Road
+"Purdysburn Road, Best's Hill",0,54.5449335,-5.9245491,Saintfield Road
+

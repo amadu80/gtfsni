@@ -324,8 +324,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5473,-5.92607,"Newtownbreda Road, Greer Park Ave",Newtownbreda Rd,Inbound
 54.6199,-5.85903,"Newtownbreda, Tesco",Tesco,Outbound
 54.6199,-5.85903,"Newtownbreda, Tesco",Tesco,Inbound
-,,"Northern Regional College, FHE",,Outbound
-,,"Northern Regional College, FHE",,Inbound
+54.6662307,-5.9038746,"Northern Regional College, FHE",Whiteabbey,Outbound
+54.6680207,-5.9019837,"Northern Regional College, FHE",Whiteabbey,Inbound
 ,,"Odyssey, Complex",,Outbound
 ,,"Odyssey, Complex",,Inbound
 ,,"Old Holywood Road, Kennelbridge",,Outbound
@@ -344,8 +344,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5701,-6.02362,"Poleglass Est, Pembrooke Loop",Pembrooke Loop,Outbound
 54.5701,-6.02362,"Poleglass Est, Pembrooke Loop",Pembrooke Loop,Inbound
 ,,"Prince Charles Way, Glebe Rd",,Outbound
-,,"Purdysburn Road, Best's Hill",,Outbound
-,,"Purdysburn Road, Best's Hill",,Inbound
+54.5449335,-5.9245491,"Purdysburn Road, Best's Hill",Saintfield Road,Outbound
+54.5450922, -5.9243399,"Purdysburn Road, Best's Hill",Saintfield Road,Inbound
 ,,"Queens Road, Science Park",,Outbound
 ,,"Queens Road, Science Park",,Inbound
 ,,"Queens University, Elmwood Ave",,Outbound
@@ -371,11 +371,11 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5559,-5.91536,"Rosslea Way, Bus stop",,Outbound
 54.6883,-6.03793,"Roughfort, Turning Circle",Mallusk Road,Outbound
 54.6883,-6.03793,"Roughfort, Turning Circle",Mallusk Road,Inbound
-,,"Royal Avenue, Castle Court",,Inbound
+54.6012305,-5.9310883,"Royal Avenue, Castle Court",City Centre,Inbound
 54.5955,-5.95322,"Royal Hospital, Grosvenor Rd",Grosvenor Road,Outbound
 54.5955,-5.95322,"Royal Hospital, Grosvenor Rd",Grosvenor Road,Inbound
-,,"Royal Hospital, Royal Hospitals",,Outbound
-,,"Royal Hospital, Royal Hospitals",,Inbound
+54.5955,-5.95322,"Royal Hospital, Royal Hospitals",Grosvenor Road,Outbound
+54.5955,-5.95322,"Royal Hospital, Royal Hospitals",Grosvenor Road,Inbound
 54.5488,-5.90616,"Saintfield Rd, Glenhugh Park",Saintfield Road,Outbound
 54.5492,-5.90656,"Saintfield Rd, Glenhugh Park",Saintfield Road,Inbound
 54.5587,-5.9091,"Saintfield Rd, Mount Oriel",Saintfield Road,Outbound
@@ -404,8 +404,8 @@ stop_lat,stop_lon,stop_name,road,direction
 ,,"Shorts, Main Office",,Inbound
 54.6316,-5.97027,"Silverstream, Ballysillan Pk",Ballysillan Park,Outbound
 54.6316,-5.97027,"Silverstream, Ballysillan Pk",Ballysillan Park,Inbound
-,,"Somerton Road, Hospice",,Outbound
-,,"Somerton Road, Hospice",,Inbound
+54.6263539,-5.933843,"Somerton Road, Hospice",Fortwilliam,Outbound
+54.6263974,-5.9337276,"Somerton Road, Hospice",Fortwilliam,Inbound
 54.6006,-5.98065,"Springmartin, Bus stop",Springmartin Road,Outbound
 54.6006,-5.98065,"Springmartin, Bus stop",Springmartin Road,Inbound
 54.5995,-5.97194,"Springvale, West Circular Road",Springfield Rd.,Outbound
@@ -433,7 +433,7 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6091,-5.87712,"Sydenham, Station",Inverary Drive,Outbound
 54.6091,-5.87712,"Sydenham, Station",Inverary Drive,Inbound
 54.5854,-5.95693,"Tate's Avenue, Bus stop",Tates Ave,Inbound
-,,"Tesco, Abbey Retail Park Church Road",,Outbound
+54.6581123,-5.9237713,"Tesco, Abbey Retail Park Church Road",Newtownabbey,Outbound
 54.6087824,-5.9069645,"Titanic Quarter, BMC",Queens Road,Outbound
 54.6086395,-5.9068787,"Titanic Quarter, BMC",Queens Road,Inbound
 54.5559,-5.91536,"Tuleevin Drive, Bus stop",,Outbound
