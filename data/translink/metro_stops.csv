@@ -2,17 +2,17 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6565592,-5.9168404,"Abbeycentre, Longwood Road",Shore Road,Outbound
 54.6549145,-5.9197935,"Abbeycentre, Longwood Road",Shore Road,Inbound
 54.6565592,-5.9168404,"Abbeycentre, Shore entrance (Dunnes)",Shore Road,Outbound
-,,"Abbots Cross, Post Office",,Outbound
-,,"Airport Road West, Heron Road",,Outbound
-,,"Airport Road West, Heron Road",,Inbound
+54.668102,-5.912757,"Abbots Cross, Post Office",,Outbound
+54.617527,-5.88542,"Airport Road West, Heron Road",,Outbound
+54.617455,-5.885254,"Airport Road West, Heron Road",,Inbound
 54.6207,-5.93794,"Alexandra Park Ave, Bus Stop",Antrim Road,Outbound
 54.6207,-5.93794,"Alexandra Park Ave, Bus Stop",Antrim Road,Inbound
-,,"Andersonstown, Slievegallion Drive",,Outbound
-,,"Andersonstown, Slievegallion Drive",,Inbound
+54.573208,-5.990468,"Andersonstown, Slievegallion Drive",,Outbound
+54.57324,-5.991224,"Andersonstown, Slievegallion Drive",,Inbound
 ,,"Annadale Embkmnt, Annadale Cr",,Outbound
 54.5709,-5.92587,"Annadale, Wellington Square",Annadale Avenue,Outbound
 54.5709,-5.92587,"Annadale, Wellington Square",Annadale Avenue,Inbound
-,,"Antrim Road, Atlantic Avenue",,Inbound
+54.617397,-5.935078,"Antrim Road, Atlantic Avenue",,Inbound
 54.6631,-5.9472,"Antrim Road, Bellevue",Antrim Road,Outbound
 54.6629,-5.94675,"Antrim Road, Bellevue",Antrim Road,Inbound
 54.6752,-5.96709,"Antrim Road, Burney's Lane",Antrim Road,Outbound
@@ -27,38 +27,38 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6143,-5.96553,"Ardoyne, Shops",Crumlin Road,Inbound
 54.5924,-5.78635,"Ballybeen, Culross Drive",Culross Drive,Outbound
 54.5924,-5.78635,"Ballybeen, Culross Drive",Culross Drive,Inbound
-,,"Ballybeen, Enler Centre",,Outbound
-,,"Ballybeen, Enler Centre",,Inbound
+54.59031,-5.792652,"Ballybeen, Enler Centre",,Outbound
+54.59031,-5.792652,"Ballybeen, Enler Centre",,Inbound
 54.5886,-5.79435,"Ballybeen, Rank Road",Rank Road,Outbound
 54.5886,-5.79435,"Ballybeen, Rank Road",Rank Road,Inbound
 54.6771,-5.96143,"Ballyclare Road, Northcott",Ballyclare Road,Outbound
 54.6778,-5.96156,"Ballyclare Road, Northcott",Ballyclare Road,Inbound
-,,"Ballyduff, Doagh Road",,Outbound
-,,"Ballyduff, Doagh Road",,Inbound
-,,"Ballyduff, Forthill Drive",,Outbound
-,,"Ballyduff, Forthill Drive",,Inbound
-,,"Ballyfore Road, Doagh Road",,Outbound
+54.6881,-5.926138,"Ballyduff, Doagh Road",,Outbound
+54.6881,-5.926138,"Ballyduff, Doagh Road",,Inbound
+54.687073,-5.935015,"Ballyduff, Forthill Drive",,Outbound
+54.68745,-5.936671,"Ballyduff, Forthill Drive",,Inbound
+54.68776,-5.931584,"Ballyfore Road, Doagh Road",,Outbound
 54.6098,-5.97009,"Ballygomartin, Glencairn Cres",Ballygomartin Road,Outbound
 54.6098,-5.97009,"Ballygomartin, Glencairn Cres",Ballygomartin Road,Inbound
-,,"Ballyhackamore, Village",,Outbound
-,,"Ballyhackamore, Village",,Inbound
+54.59512,-5.866976,"Ballyhackamore, Village",,Outbound
+54.595303,-5.870742,"Ballyhackamore, Village",,Inbound
 54.6907,-5.96243,"Ballyhenry, Ballyearl Way",Ballyhenry(Ballyearl Way),Outbound
 54.6902,-5.96235,"Ballyhenry, Ballyearl Way",Ballyhenry(Ballyearl Way),Inbound
 54.5592,-5.97293,"Balmoral, Finnis Drive",Finnis Drive,Outbound
 54.5592,-5.97293,"Balmoral, Finnis Drive",Finnis Drive,Inbound
-,,"Bedford Street, Ulster Hall",,Outbound
-,,"Beechill Road, Cedarhurst",,Outbound
-,,"Beechill Road, Cedarhurst",,Inbound
+54.595097,-5.931518,"Bedford Street, Ulster Hall",,Outbound
+54.55081,-5.914239,"Beechill Road, Cedarhurst",,Outbound
+54.55081,-5.914239,"Beechill Road, Cedarhurst",,Inbound
 54.5949,-5.93624,"Belfast, (Europa Buscentre)",Europa Buscentre,Outbound
 54.5949,-5.93624,"Belfast, (Europa Buscentre)",Europa Buscentre,Inbound
-,,"Belfast, Adelaide St",,Outbound
+54.595467,-5.928482,"Belfast, Adelaide St",,Outbound
 54.591,-5.93434,"Belfast, Albion Street",Great Victoria Street,Outbound
 54.591,-5.93434,"Belfast, Albion Street",Great Victoria Street,Inbound
 54.5975,-5.92734,"Belfast, Chichester Street",Chichester St.,Outbound
-,,"Belfast, City Hall",,Inbound
+54.597294,-5.932676,"Belfast, City Hall",,Inbound
 54.5849,-5.93189,"Belfast, College Green",Botanic Avenue,Outbound
 54.5853,-5.9326,"Belfast, College Green",Botanic Avenue,Inbound
-,,"Belfast, Donegall Pl Boots",,Inbound
+54.59784,-5.93011,"Belfast, Donegall Pl Boots",,Inbound
 54.5969,-5.92854,"Belfast, Donegall Sq East",Donegall Square East,Outbound
 54.5969,-5.92854,"Belfast, Donegall Sq East",Donegall Square East,Inbound
 54.5973,-5.93111,"Belfast, Donegall Sq North",Donegall Square North,Outbound
@@ -79,20 +79,20 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5973,-5.9321,"Belfast, Wellington Place",Wellington Place,Inbound
 54.6006,-5.8777,"Belmont Rd, Gelston's Corner",Belmont Road,Outbound
 54.6003,-5.87642,"Belmont Rd, Gelston's Corner",Belmont Road,Inbound
-,,"Belsteele Road, Glenwood",,Outbound
-,,"Belsteele Road, Glenwood",,Inbound
+54.56041,-6.030258,"Belsteele Road, Glenwood",,Outbound
+54.560497,-6.030022,"Belsteele Road, Glenwood",,Inbound
 54.5559,-5.91536,"Belvoir Drive, Bus Stop",,Outbound
-,,"Belvoir Drive, Castlecoole Pk",,Outbound
-,,"Belvoir Drive, Primary School",,Outbound
-,,"Belvoir Drive, Primary School",,Inbound
+54.553402,-5.924958,"Belvoir Drive, Castlecoole Pk",,Outbound
+54.551617,-5.932282,"Belvoir Drive, Primary School",,Outbound
+54.551804,-5.931732,"Belvoir Drive, Primary School",,Inbound
 ,,"Blacks Road Pk+R, Park and Ride",,Outbound
 ,,"Blacks Road Pk+R, Park and Ride",,Inbound
-,,"Blacks Road, St Annes",,Outbound
-,,"Blacks Road, St Annes",,Inbound
-,,"Bloomfield Road, Roundabout",,Outbound
-,,"Bloomfield Road, Roundabout",,Inbound
-,,"Boucher Crescent, Retail Park",,Outbound
-,,"Boucher Crescent, Retail Park",,Inbound
+54.560535,-5.998527,"Blacks Road, St Annes",,Outbound
+54.560535,-5.998527,"Blacks Road, St Annes",,Inbound
+54.591293,-5.880854,"Bloomfield Road, Roundabout",,Outbound
+54.591293,-5.880854,"Bloomfield Road, Roundabout",,Inbound
+54.57941,-5.966466,"Boucher Crescent, Retail Park",,Outbound
+54.579697,-5.966436,"Boucher Crescent, Retail Park",,Inbound
 54.583,-5.96142,"Boucher Rd, Charles Hurst",Boucher Cres,Outbound
 54.583,-5.96142,"Boucher Rd, Charles Hurst",Boucher Cres,Inbound
 54.589,-5.93456,"Bradbury Place, Bus stop",Bradbury Place,Outbound
@@ -103,8 +103,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5609,-6.03573,"Brian's Well Road, Glenkeen",Brianswell Road,Inbound
 54.5472,-5.90385,"Cairnshill Road, Cairnshill Court",Cairnshill Road,Outbound
 54.5472,-5.90385,"Cairnshill Road, Cairnshill Court",Cairnshill Road,Inbound
-,,"Cairnshill Road, Malvern Park",,Outbound
-,,"Cairnshill Road, Malvern Park",,Inbound
+54.5521442,-5.895659,"Cairnshill Road, Malvern Park",,Outbound
+54.5518424,-5.8955973,"Cairnshill Road, Malvern Park",,Inbound
 54.6083,-5.93662,"Carlisle Circus, Antrim Road",Antrim Road,Outbound
 54.6084,-5.93637,"Carlisle Circus, Antrim Road",Antrim Road,Inbound
 ,,"Carlisle Circus, Mater Hospital",,Outbound

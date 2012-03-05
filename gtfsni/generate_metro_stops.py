@@ -6,12 +6,8 @@ import re
 import csv
 import requests
 
-try:
-    from gtfsni import get_pkg_data, get_app_data
-except ImportError:
-    def get_pkg_data(path):
-        return os.path.join('data', path)
-    get_app_data = get_pkg_data
+from gtfsni import get_pkg_data, get_app_data
+from gtfsni.utils import slugify, direction2name
 
 FIXES_FILE = get_pkg_data('translink/metro_stops_fixes.csv')
 
@@ -37,60 +33,6 @@ REFERENCE_STOPS['Inbound'] = REFERENCE_STOPS[1] = INBOUND_REFERENCE
 REFERENCE_STOPS['Outbound'] = REFERENCE_STOPS[0] = OUTBOUND_REFERENCE
 TIMETABLE_STOPS = None
 FIXES = {}
-
-rx_strip = re.compile(r'[^-\w\s,()/]').sub
-rx_hyphenate = re.compile(r'[-\s,()/]+').sub
-rx_normalise = [(re.compile('\\b'+patt+'\\b'), repl) for patt, repl in [
-    ('road', 'rd'),
-    ('avenue', 'ave'),
-    ('street', 'st'),
-    ('place', 'pl'),
-    ('estate', 'est'),
-    ('pk', 'park'),
-    ('sq', 'square'),
-    ('stn', 'station'),
-    ('cres', 'crescent'),
-    ('cen', 'centre'),
-    ('sth', 'south'),
-    ('nth', 'north'),
-    ('pde', 'parade'),
-    ('drv', 'drive'),
-    ('la', 'lane'), #Gray's Lane
-    ('jct', 'junction'),
-    ('fm ctr', 'farm'), #Dale farm
-    ('mt', 'mount'),
-    ('bus stop', ''),
-    ('boucher rd, charles hurst', 'hursts, boucher crescent'),
-    ("k'breda", 'knockbreda'),
-    ('cemy', 'cemetery'),
-    ('cemetry', 'cemetery'),
-    ('st.james', 'st. james'),
-    ('st.teresa', 'st. teresa'),
-    ('st.theresa', 'st. teresa'),
-    ('hospitals', 'hospital'), #Royal Victoria
-    ('trossachs dr', 'trossachs'),
-    ('kingsway park', 'kingsway'),
-    ('george best', 'city'),
-    ('sydenham by-pass', 'belfast'),
-    ('skipper street', ''),
-    ('hydebank r/bout', 'hydebank'),
-    ('ligoniel, mountainhill', 'ligoniel'),
-    ('mossley, glade', 'mossley(rail station)'),
-    ('newton park, colby park', 'newton park(colby)'),
-    ('donegall', 'donegal'),
-    ('queens square albert clock', 'queens square'),
-]]
-
-
-def slugify(s):
-    if not s:
-        return ''
-    s = s.lower()
-    for patt, repl in rx_normalise:
-        s = patt.sub(repl, s)
-    return rx_hyphenate('-', rx_strip('', s or '').strip()).strip('-')
-
-direction2name = {0: 'Outbound', 1: 'Inbound'}
 
 def ReferenceReader(fd):
     return csv.DictReader(fd, REFERENCE_SCHEMA)
