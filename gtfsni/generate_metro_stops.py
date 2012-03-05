@@ -100,7 +100,7 @@ def load_timetable_stops():
     TIMETABLE_STOPS = [(row['stop_name'], row['route_direction']) for row in reader]
 
 def load_code4pizza_fixes():
-    with open(get_pkg_data('translink/code4pizza_stops.csv')) as fd:
+    with open(get_pkg_data('translink/opentranslink_stops.csv')) as fd:
         reader = csv.reader(fd)
         reader.next()
         for row in reader:
