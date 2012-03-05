@@ -9,7 +9,7 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6207,-5.93794,"Alexandra Park Ave, Bus Stop",Antrim Road,Inbound
 54.573208,-5.990468,"Andersonstown, Slievegallion Drive",,Outbound
 54.57324,-5.991224,"Andersonstown, Slievegallion Drive",,Inbound
-,,"Annadale Embkmnt, Annadale Cr",,Outbound
+54.5708178,-5.9256649,"Annadale Embkmnt, Annadale Cr",,Outbound
 54.5709,-5.92587,"Annadale, Wellington Square",Annadale Avenue,Outbound
 54.5709,-5.92587,"Annadale, Wellington Square",Annadale Avenue,Inbound
 54.617397,-5.935078,"Antrim Road, Atlantic Avenue",,Inbound
@@ -107,48 +107,48 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5518424,-5.8955973,"Cairnshill Road, Malvern Park",,Inbound
 54.6083,-5.93662,"Carlisle Circus, Antrim Road",Antrim Road,Outbound
 54.6084,-5.93637,"Carlisle Circus, Antrim Road",Antrim Road,Inbound
-,,"Carlisle Circus, Mater Hospital",,Outbound
-,,"Carlisle Circus, Mater Hospital",,Inbound
-,,"Carnmoney, Burnthill Road",,Outbound
-,,"Carnmoney, Burnthill Road",,Inbound
-,,"Carnmoney, Carnvue",,Outbound
-,,"Carnmoney, Carnvue",,Inbound
-,,"Carnmoney, Cemetery",,Outbound
+54.60822,-5.940156,"Carlisle Circus, Mater Hospital",,Outbound
+54.608196,-5.939398,"Carlisle Circus, Mater Hospital",,Inbound
+54.67894,-5.952422,"Carnmoney, Burnthill Road",,Outbound
+54.678955,-5.952204,"Carnmoney, Burnthill Road",,Inbound
+54.68348,-5.951341,"Carnmoney, Carnvue",,Outbound
+54.683277,-5.951258,"Carnmoney, Carnvue",,Inbound
+54.66974,-5.939042,"Carnmoney, Cemetery",,Outbound
 54.6305,-5.96122,"Carrs Glen, Joanmount",Ballysillan Road,Outbound
 54.6305,-5.96122,"Carrs Glen, Joanmount",Ballysillan Road,Inbound
 54.6685,-5.95372,"Carryduff, Church Road",Antrim Road,Outbound
 54.6683,-5.95283,"Carryduff, Church Road",Antrim Road,Inbound
 54.5559,-5.91536,"Castle Avenue, Bus stop",,Outbound
-,,"Castle Street, Castle Street",,Outbound
+54.5992,-5.934096,"Castle Street, Castle Street",,Outbound
 54.5787,-5.87453,"Castlereagh Rd, Clonduff",Castlereagh Road,Outbound
 54.5786,-5.87458,"Castlereagh Rd, Clonduff",Castlereagh Road,Inbound
-,,"Castlereagh Rd, Grand Parade",,Outbound
+54.585506,-5.888549,"Castlereagh Rd, Grand Parade",,Outbound
 54.5854,-5.89007,"Castlereagh Rd, Ladas Drive",Castlereagh Road,Outbound
 54.5854,-5.89038,"Castlereagh Rd, Ladas Drive",Castlereagh Road,Inbound
 54.6249,-5.94859,"Cavehill Road, Westland Rd",Westland Road,Outbound
 54.6249,-5.94859,"Cavehill Road, Westland Rd",Westland Road,Inbound
 54.6199,-5.85903,"Church Road, Tesco",Tesco,Outbound
 54.6199,-5.85903,"Church Road, Tesco",Tesco,Inbound
-,,"Circular Road, CIYMS Grounds",,Outbound
-,,"Circular Road, CIYMS Grounds",,Inbound
+54.6056583,-5.8601546,"Circular Road, CIYMS Grounds",,Outbound
+54.6056583,-5.8601546,"Circular Road, CIYMS Grounds",,Inbound
 54.5559,-5.91536,"Clarawood Park, Bus stop",,Outbound
 54.5559,-5.91536,"Clarawood Park, Bus stop",,Inbound
 54.5559,-5.91536,"Clarawood Road, Bus stop",,Outbound
 54.6185,-5.96072,"Cliftonville Circus, Alliance Ave",Alliance Avenue,Outbound
 54.6184,-5.96103,"Cliftonville Circus, Alliance Ave",Alliance Avenue,Inbound
-,,"Cliftonville Circus, Old Park Road",,Outbound
-,,"Cliftonville Circus, Old Park Road",,Inbound
+54.62154,-5.95526,"Cliftonville Circus, Old Park Road",,Outbound
+54.62205,-5.956272,"Cliftonville Circus, Old Park Road",,Inbound
 54.6143,-5.9384,"Cliftonville Road, Academy",Cliftonville Road,Outbound
 54.6143,-5.9384,"Cliftonville Road, Academy",Cliftonville Road,Inbound
 54.5754,-5.87957,"Clonduff Drive, Bus stop",Upper Knockbreda Road,Outbound
 54.6081,-5.87544,"Cloughfern, Station Road",Station Road,Outbound
-,,"Cloughfern, Whiteabbey Hospl",,Outbound
-,,"Cloughfern, Whiteabbey Hospl",,Inbound
+54.6723,-5.913363,"Cloughfern, Whiteabbey Hospl",,Outbound
+54.672726,-5.913559,"Cloughfern, Whiteabbey Hospl",,Inbound
 54.6049,-5.8801,"Connsbrook Avenue, Larkfield",Connsbrook Avenue,Outbound
 54.6053,-5.87961,"Connsbrook Avenue, Larkfield",Connsbrook Avenue,Inbound
 54.598,-5.89082,"Connswater, Newtownards Rd",Newtownards Road,Outbound
 54.5978,-5.89038,"Connswater, Newtownards Rd",Newtownards Road,Inbound
-,,"Connswater, Shopping Centre",,Outbound
+54.595844,-5.88984,"Connswater, Shopping Centre",,Outbound
 54.5389,-6.01351,"Conway, River Road",Ballybog Rd,Outbound
 54.5389,-6.01351,"Conway, River Road",Ballybog Rd,Inbound
 54.6064335,-5.922457,"Corporation St, Clarendon Dock",The Docks,Outbound
@@ -163,36 +163,36 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6221,-5.97691,"Crumlin Rd, Glenbank Corner",Crumlin Road,Outbound
 54.623,-5.97624,"Crumlin Rd, Glenbank Corner",Crumlin Road,Inbound
 54.5559,-5.91536,"Dargan Crescent, Bus stop",,Outbound
-,,"Doagh Road, Abbots Cross",,Outbound
-,,"Doagh Road, Cherrylands",,Outbound
-,,"Doagh Road, Cherrylands",,Inbound
-,,"Doagh Road, Green End",,Outbound
-,,"Doagh Road, Green End",,Inbound
+54.668102,-5.912757,"Doagh Road, Abbots Cross",,Outbound
+54.682762,-5.919479,"Doagh Road, Cherrylands",,Outbound
+54.682762,-5.919479,"Doagh Road, Cherrylands",,Inbound
+54.6665,-5.912591,"Doagh Road, Green End",,Outbound
+54.6665,-5.912591,"Doagh Road, Green End",,Inbound
 54.5884,-5.82685,"Doagh Road, King's Road",Kings Rd.,Outbound
-,,"Donegall Park Avenue, Downview Gdns",,Outbound
-,,"Donegall Park Avenue, Downview Gdns",,Inbound
+54.6379,-5.926325,"Donegall Park Avenue, Downview Gdns",,Outbound
+54.638138,-5.926994,"Donegall Park Avenue, Downview Gdns",,Inbound
 54.5924,-5.96116,"Donegall Rd, Broadway",Falls Road,Outbound
 54.5924,-5.96116,"Donegall Rd, Broadway",Falls Road,Inbound
-,,"Downview, Innisfayle Road",,Outbound
-,,"Downview, Innisfayle Road",,Inbound
-,,"Duncrue Road, Cleansing Depot",,Inbound
-,,"Duncrue Street, Ulsterbus",,Outbound
-,,"Duncrue Street, Ulsterbus",,Inbound
+54.639626,-5.932542,"Downview, Innisfayle Road",,Outbound
+54.639626,-5.932542,"Downview, Innisfayle Road",,Inbound
+54.628152,-5.9143996,"Duncrue Road, Cleansing Depot",,Inbound
+54.615192,-5.919167,"Duncrue Street, Ulsterbus",,Outbound
+54.615192,-5.919167,"Duncrue Street, Ulsterbus",,Inbound
 54.5885,-5.81869,"Dundonald, Ice Bowl",Old Dundonald Rd.,Outbound
 54.5885,-5.81869,"Dundonald, Ice Bowl",Old Dundonald Rd.,Inbound
 54.5952,-5.81166,"Dundonald, Ulster Hospital",Upper Newtownards Road,Outbound
 54.5952,-5.81166,"Dundonald, Ulster Hospital",Upper Newtownards Road,Inbound
 54.5512,-6.00342,"Dunmurry, Village",Upper Lisburn Road,Outbound
 54.5512,-6.00342,"Dunmurry, Village",Upper Lisburn Road,Inbound
-,,"Dunseverick Ave, Drumart Dr",,Outbound
+54.5497999,-5.9271026,"Dunseverick Ave, Drumart Dr",,Outbound
 54.595,-5.81486,"East Link Road, Comber Road",Upper Newtownards Road,Outbound
 54.5949,-5.81479,"East Link Road, Comber Road",Upper Newtownards Road,Inbound
 54.5817206,-5.9242648,"Elgin Street, Dunnes Stores",Ormeau Road,Outbound
-,,"Fairview Rd, Ballyduff Shops",,Outbound
-,,"Fairview Rd, Beverley Shops",,Outbound
-,,"Fairview Rd, Beverley Shops",,Inbound
-,,"Fairview Rd, Turning Circle",,Outbound
-,,"Fairview Rd, Turning Circle",,Inbound
+54.689266,-5.935136,"Fairview Rd, Ballyduff Shops",,Outbound
+54.688713,-5.948053,"Fairview Rd, Beverley Shops",,Outbound
+54.688713,-5.948053,"Fairview Rd, Beverley Shops",,Inbound
+54.68978,-5.936413,"Fairview Rd, Turning Circle",,Outbound
+54.68978,-5.936413,"Fairview Rd, Turning Circle",,Inbound
 54.5849,-5.97655,"Falls Park, Bus stop",Falls Road,Outbound
 54.5845,-5.97784,"Falls Park, Bus stop",Falls Road,Inbound
 54.5881,-5.97011,"Falls Road, City Cemetery",Falls Road,Outbound
@@ -204,21 +204,21 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5559,-5.91536,"Fernagh Road, Bus stop",,Outbound
 54.5665,-5.98993,"Finaghy Rd Nth, Orchardville",Finaghy Road North,Outbound
 54.5663,-5.98952,"Finaghy Rd Nth, Orchardville",Finaghy Road North,Inbound
-,,"Finaghy Rd Sth, Health Centre",,Outbound
-,,"Finaghy Rd Sth, Health Centre",,Inbound
+54.560402,-5.984388,"Finaghy Rd Sth, Health Centre",,Outbound
+54.560047,-5.984251,"Finaghy Rd Sth, Health Centre",,Inbound
 54.5516,-5.97642,"Finaghy Rd Sth, Trossachs Dr",Finaghy Rd South,Outbound
 54.552,-5.97652,"Finaghy Rd Sth, Trossachs Dr",Finaghy Rd South,Inbound
-,,"Finaghy, Crossroads Lisburn Rd",,Outbound
-,,"Finaghy, Crossroads Lisburn Rd",,Inbound
+54.56068,-5.986075,"Finaghy, Crossroads Lisburn Rd",,Outbound
+54.561832,-5.98407,"Finaghy, Crossroads Lisburn Rd",,Inbound
 54.5629,-5.91024,"Forestside, Knockbreda Cemy",Saintfield Road,Inbound
-,,"Forestside, Sainsbury",,Outbound
+54.5629,-5.91024,"Forestside, Sainsbury",,Outbound
 54.5647,-5.91124,"Forestside, Saintfield Rd",Saintfield Road,Outbound
 54.565,-5.90907,"Forestside, Upper Galwally",Upper Galwally,Outbound
 54.5651,-5.90935,"Forestside, Upper Galwally",Upper Galwally,Inbound
 54.5563,-5.89233,"Four Winds, Ballymaconaghy Rd",Ballymaconaghy Road,Outbound
 54.5563,-5.89233,"Four Winds, Ballymaconaghy Rd",Ballymaconaghy Road,Inbound
-,,"Garnerville Road, Glenluce",,Outbound
-,,"Garnerville Road, Glenluce",,Inbound
+54.61511,-5.860264,"Garnerville Road, Glenluce",,Outbound
+54.61511,-5.860264,"Garnerville Road, Glenluce",,Inbound
 54.615,-5.86973,"George Best Airport, Belfast",Sydenham By-Pass,Outbound
 54.615,-5.86973,"George Best Airport, Belfast",Sydenham By-Pass,Inbound
 54.5878,-5.84715,"Gilnahirk Road, Kingsway Park",Gilnahirk Road,Outbound
@@ -229,30 +229,30 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5809,-5.99067,"Glen Road, St Teresa's",Glen Road,Inbound
 54.6214,-5.98484,"Glencairn, Forthriver Road",Forthriver Road,Outbound
 54.6214,-5.98484,"Glencairn, Forthriver Road",Forthriver Road,Inbound
-,,"Glengormley, Centre",,Outbound
-,,"Glengormley, Centre",,Inbound
+54.669746,-5.956543,"Glengormley, Centre",,Outbound
+54.67025,-5.957572,"Glengormley, Centre",,Inbound
 54.6767,-5.96865,"Glengormley, Northcott Link Road",Northcott Link Road,Outbound
 54.6767,-5.96858,"Glengormley, Northcott Link Road",Northcott Link Road,Inbound
-,,"Glenville, Monkstown Avenue",,Outbound
-,,"Glenville, Monkstown Avenue",,Inbound
+54.681625,-5.910714,"Glenville, Monkstown Avenue",,Outbound
+54.681625,-5.910714,"Glenville, Monkstown Avenue",,Inbound
 54.5559,-5.91536,"Gunnell Hill, Bus stop",,Outbound
 54.6004536,-5.9257829,"High Street, Skipper Street",City Centre,Outbound
-,,"Hightown Road, Turning Circle",,Outbound
-,,"Hightown Road, Turning Circle",,Inbound
+54.66678,-5.969062,"Hightown Road, Turning Circle",,Outbound
+54.66678,-5.969062,"Hightown Road, Turning Circle",,Inbound
 54.6228,-5.86055,"Holywood Exchange, Ikea",,Outbound
 54.6228,-5.86055,"Holywood Exchange, Ikea",,Inbound
-,,"Holywood Exchange, Sainsburys",,Outbound
-,,"Holywood Exchange, Sainsburys",,Inbound
-,,"Holywood Rd, Arches Heatlh Centre",,Outbound
+54.626858,-5.857975,"Holywood Exchange, Sainsburys",,Outbound
+54.626858,-5.857975,"Holywood Exchange, Sainsburys",,Inbound
+54.598167,-5.8876,"Holywood Rd, Arches Heatlh Centre",,Outbound
 54.6182,-5.85304,"Holywood Rd, Knocknagoney Ave",KnocknagoneyRoad,Outbound
 54.6182,-5.85304,"Holywood Rd, Knocknagoney Ave",KnocknagoneyRoad,Inbound
-,,"Holywood Rd, Park Avenue",,Outbound
-,,"Holywood Rd, Park Avenue",,Inbound
+54.60121,-5.878218,"Holywood Rd, Park Avenue",,Outbound
+54.60121,-5.878218,"Holywood Rd, Park Avenue",,Inbound
 54.6139,-5.86184,"Holywood Rd, Tillysburn Park",Hollywood Road,Outbound
 54.6139,-5.86184,"Holywood Rd, Tillysburn Park",Hollywood Road,Inbound
 54.5456,-5.93039,"Hydebank, Milltown Road",Milltown Rd,Outbound
 54.5456,-5.93039,"Hydebank, Milltown Road",Milltown Rd,Inbound
-,,"Hydepark, Trench Road",,Outbound
+54.678726,-5.998112,"Hydepark, Trench Road",,Outbound
 54.5559,-5.91536,"Jordanstown Road, Bus stop",,Outbound
 54.5559,-5.91536,"Jordanstown Road, Bus stop",,Inbound
 54.5814,-5.97978,"Kennedy Cen, Falls Road",Falls Road,Outbound
@@ -328,8 +328,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.6680207,-5.9019837,"Northern Regional College, FHE",Whiteabbey,Inbound
 54.603171,-5.9168726,"Odyssey, Complex",Sydenham Road,Outbound
 54.6030343,-5.9166473,"Odyssey, Complex",Sydenham Road,Inbound
-,,"Old Holywood Road, Kennelbridge",,Outbound
-,,"Old Holywood Road, Kennelbridge",,Inbound
+54.609127,-5.851244,"Old Holywood Road, Kennelbridge",,Outbound
+54.609127,-5.851244,"Old Holywood Road, Kennelbridge",,Inbound
 54.6249,-5.94859,"Oldpark, Westland Road",Westland Road,Outbound
 54.6249,-5.94859,"Oldpark, Westland Road",Westland Road,Inbound
 54.5841,-5.92234,"Ormeau Road, Agincourt Avenue",Ormeau Road,Outbound
@@ -348,8 +348,8 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5450922,-5.9243399,"Purdysburn Road, Best's Hill",Saintfield Road,Inbound
 54.6119015,-5.9026355,"Queens Road, Science Park",,Outbound
 54.611392,-5.9030163,"Queens Road, Science Park",,Inbound
-,,"Queens University, Elmwood Ave",,Outbound
-,,"Queens University, Elmwood Ave",,Inbound
+54.584393,-5.937599,"Queens University, Elmwood Ave",,Outbound
+54.584393,-5.937599,"Queens University, Elmwood Ave",,Inbound
 54.5559,-5.91536,"Raphael Street, Bus stop",,Outbound
 54.6632103,-5.9179536,"Rathcoole, Diamond",Newtownabbey,Outbound
 54.6634585,-5.9165722,"Rathcoole, Diamond",Newtownabbey,Inbound
@@ -389,9 +389,9 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5767,-6.00998,"Shaws Road, Lenadoon Avenue",Shaws Road,Inbound
 54.6453,-5.93521,"Shore Road, Gray's La",Antrim Road,Outbound
 54.6453,-5.93521,"Shore Road, Gray's La",Antrim Road,Inbound
-,,"Shore Road, Lidl/Asda",,Outbound
-,,"Shore Road, Lidl/Asda",,Inbound
-,,"Shore Road, Mount Vernon Rd",,Outbound
+54.62718,-5.923789,"Shore Road, Lidl/Asda",,Outbound
+54.62718,-5.923789,"Shore Road, Lidl/Asda",,Inbound
+54.63181,-5.923057,"Shore Road, Mount Vernon Rd",,Outbound
 54.5957751,-5.9092927,"Short Strand, Albertbridge Rd",Short Strand,Outbound
 54.5955156,-5.90951,"Short Strand, Albertbridge Rd",Short Strand,Inbound
 54.5983,-5.91092,"Short Strand, Mountpottinger Link",Mountpottinger Link,Outbound
@@ -439,7 +439,7 @@ stop_lat,stop_lon,stop_name,road,direction
 54.5559,-5.91536,"Tuleevin Drive, Bus stop",,Outbound
 54.5852693,-5.8304733,"Tullycarnett, Leven Drive",Castlereagh,Outbound
 54.5851822,-5.8308005,"Tullycarnett, Leven Drive",Castlereagh,Inbound
-,,"Twinbrook Est, St Mark's School",,Inbound
+54.5496786,-6.0233402,"Twinbrook Est, St Mark's School",,Inbound
 54.5692,-6.00756,"Twinbrook Est, Stewartstown Rd",Stewartstown Rd,Outbound
 54.5704,-6.00582,"Twinbrook Est, Stewartstown Rd",Stewartstown Rd,Inbound
 ,,Unknown stop 805455,,Outbound

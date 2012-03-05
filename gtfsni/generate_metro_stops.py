@@ -32,6 +32,7 @@ REFERENCE_STOPS = {}
 REFERENCE_STOPS['Inbound'] = REFERENCE_STOPS[1] = INBOUND_REFERENCE
 REFERENCE_STOPS['Outbound'] = REFERENCE_STOPS[0] = OUTBOUND_REFERENCE
 TIMETABLE_STOPS = None
+CODE4PIZZA_STOPS = {}
 FIXES = {}
 
 def ReferenceReader(fd):
@@ -98,6 +99,15 @@ def load_timetable_stops():
     reader.next()
     TIMETABLE_STOPS = [(row['stop_name'], row['route_direction']) for row in reader]
 
+def load_code4pizza_fixes():
+    with open(get_pkg_data('translink/code4pizza_stops.csv')) as fd:
+        reader = csv.reader(fd)
+        reader.next()
+        for row in reader:
+            key = slugify(row[0])
+            val = (row[1], row[2],'')
+            CODE4PIZZA_STOPS[key] = val
+
 def load_manual_fixes():
     with open(FIXES_FILE) as fd:
         reader = FixesReader(fd)
@@ -133,6 +143,8 @@ def find_info(stop, direction):
         info = _find_info(tail, stops, None, None)
         if not info:
             info = _find_info(tail, other_stops, None, None)
+    if not info:
+        info = _find_info(stop, CODE4PIZZA_STOPS, None, None)
     if info:
         return info
 
@@ -145,6 +157,7 @@ def main():
     """
     load_reference_stops()
     load_timetable_stops()
+    load_code4pizza_fixes()
     load_manual_fixes()
     found = missing = 0
     with open(get_app_data('translink/metro_stops.csv'), 'wb') as fd:
