@@ -27,6 +27,7 @@ setup(
           "gtfs_generate = gtfsni.gtfs_feed_generator:main",
           "gtfs_validate = gtfsni.gtfs_feed_validator:main",
           "gtfs_view = gtfsni.gtfs_schedule_viewer:main",
+          "gtfs_to_kml = gtfsni.kmlwriter:main",
           "generate_metro_stops = gtfsni.generate_metro_stops:main",
         ]
     }

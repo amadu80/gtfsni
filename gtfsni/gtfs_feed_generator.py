@@ -3,6 +3,7 @@ import os
 import csv
 from itertools import groupby
 import time
+import shutil
 
 import requests
 
@@ -119,6 +120,11 @@ def get_schemas(fname):
     if schema_in and schema_out and schema_in != '*':
         assert set(schema_in) <= set(schema_out), ', '.join(schema_out)
     return schema_in, schema_out
+
+def write_agency():
+    src = get_pkg_data('translink/agency.csv')
+    dest = get_app_data('gtfs/agency.txt')
+    shutil.copyfile(src, dest)
 
 def write_routes():
     fname = 'routes.txt'
@@ -255,8 +261,13 @@ def compress():
         'archive': archive,
         'src': get_app_data('gtfs/'),
         'dest': get_app_data('dist/' + archive),
+        'destroot': get_app_data('dist/'),
+        'symlink': 'google_transit.zip',
     }
-    cmd = 'cd %(src)s && zip %(archive)s *.txt && mv %(archive)s %(dest)s'
+    cmd = (
+        'cd %(src)s && zip %(archive)s *.txt && mv %(archive)s %(dest)s'
+        ' && cd %(destroot)s && ln -s %(archive)s %(symlink)s'
+    )
     cmd %= cxt
     ret = os.system(cmd)
     if ret:
@@ -264,11 +275,12 @@ def compress():
     print 'created archive: %s' % cxt['dest']
 
 def main():
-    generate_metro_stops()
-    write_stops()
-    write_routes()
-    write_trips_and_calendar()
-    write_stop_times()
+    #generate_metro_stops()
+    #write_stops()
+    #write_routes()
+    #write_trips_and_calendar()
+    #write_stop_times()
+    write_agency()
     compress()
 
 

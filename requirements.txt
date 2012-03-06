@@ -1,0 +1,5 @@
+
+gtfsni
+requests
+python-geohash
+-e svn+http://googletransitdatafeed.googlecode.com/svn/trunk/python/#egg=transitfeed
