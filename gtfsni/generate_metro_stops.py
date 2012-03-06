@@ -4,7 +4,9 @@ import os
 import sys
 import re
 import csv
+
 import requests
+from geohash import encode as geohash
 
 from gtfsni import get_pkg_data, get_app_data
 from gtfsni.utils import slugify, direction2name
@@ -21,7 +23,7 @@ TIMETABLE_SCHEMA = [
     'stop_name', 'route_direction',
 ]
 STOPS_SCHEMA = [
-    'stop_lat', 'stop_lon', 'stop_name', 'road', 'direction',
+    'stop_lat', 'stop_lon', 'stop_name', 'road', 'direction', 'geohash'
 ]
 FIXES_SCHEMA = [
     'stop_name', 'route_direction', 'stop_lat', 'stop_lon', 'road',
@@ -32,7 +34,7 @@ REFERENCE_STOPS = {}
 REFERENCE_STOPS['Inbound'] = REFERENCE_STOPS[1] = INBOUND_REFERENCE
 REFERENCE_STOPS['Outbound'] = REFERENCE_STOPS[0] = OUTBOUND_REFERENCE
 TIMETABLE_STOPS = None
-CODE4PIZZA_STOPS = {}
+OPENTRANSLINK_STOPS = {}
 FIXES = {}
 
 def ReferenceReader(fd):
@@ -99,14 +101,13 @@ def load_timetable_stops():
     reader.next()
     TIMETABLE_STOPS = [(row['stop_name'], row['route_direction']) for row in reader]
 
-def load_code4pizza_fixes():
+def load_opentranslink_stops():
     with open(get_pkg_data('translink/opentranslink_stops.csv')) as fd:
         reader = csv.reader(fd)
-        reader.next()
         for row in reader:
             key = slugify(row[0])
             val = (row[1], row[2],'')
-            CODE4PIZZA_STOPS[key] = val
+            OPENTRANSLINK_STOPS[key] = val
 
 def load_manual_fixes():
     with open(FIXES_FILE) as fd:
@@ -144,7 +145,7 @@ def find_info(stop, direction):
         if not info:
             info = _find_info(tail, other_stops, None, None)
     if not info:
-        info = _find_info(stop, CODE4PIZZA_STOPS, None, None)
+        info = _find_info(stop, OPENTRANSLINK_STOPS, None, None)
     if info:
         return info
 
@@ -157,7 +158,7 @@ def main():
     """
     load_reference_stops()
     load_timetable_stops()
-    load_code4pizza_fixes()
+    load_opentranslink_stops()
     load_manual_fixes()
     found = missing = 0
     with open(get_app_data('translink/metro_stops.csv'), 'wb') as fd:
@@ -178,6 +179,7 @@ def main():
                 # info is a 3-tuple
                 x, y = row['stop_lat'], row['stop_lon'] = info[:2]
                 row['road'] = info[2]
+                row['geohash'] = geohash(float(x), float(y))
                 found += 1
             else:
                 print "MISSING: ", name, direction

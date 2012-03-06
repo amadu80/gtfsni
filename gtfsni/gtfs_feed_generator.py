@@ -6,6 +6,7 @@ import requests
 
 from gtfsni import get_pkg_data, get_app_data
 from gtfsni import utils
+from gtfsni.generate_metro_stops import main as generate_metro_stops
 
 ENDPOINT = 'https://api.scraperwiki.com/api/1.0/datastore/sqlite'
 TRIPDATAJOINER = '|'
@@ -14,14 +15,15 @@ RAW_TIMETABLE_SCHEMA = (
     'agency_id', 'operator_id', 'service_id',
     'route_id', 'route_url', 'route_type', 'route_long_name',
     'route_short_name', 'route_begin', 'route_end', 'route_direction',
-    'stop_sequence', 'schedule',
+    'stop_name', 'stop_sequence', 'schedule',
 )
 GTFS_SCHEMA_MAP = {
     'stops.txt': [(
-        'stop_lat', 'stop_lon', 'stop_name', 'road', 'direction',
+        'stop_lat', 'stop_lon', 'stop_name', 'road', 'direction', 'geohash',
     ),(
         'stop_id', 'stop_code', 'stop_name', 'stop_desc', 'stop_lat', 'stop_lon',
         'zone_id', 'stop_url', 'location_type', 'parent_station', 'stop_timezone',
+        'road', 'direction', 'geohash',
     )],
     'routes.txt': [(
         'agency_id', 'route_id', 'route_type', 'route_url',
@@ -54,7 +56,7 @@ GTFS_SCHEMA_MAP = {
 
 
 def make_id(*args):
-    return utils.slugify(' '.join(args))
+    return utils.slugify(' '.join(str(arg) for arg in args))
 
 def make_route_id(*args):
     return make_id(*args).replace('-', '').upper()
@@ -130,8 +132,9 @@ def write_stops():
     metro_stops = get_app_data('translink/metro_stops.csv')
     if not os.path.exists(metro_stops):
         raise Exception("stop coordinate file not found - %s" % metro_stops)
+    direction2code = utils.direction2code
     with open(metro_stops) as fd:
-        reader = csv.DictWriter(fd, schema_in)
+        reader = csv.DictReader(fd, schema_in)
         reader.next()
         with CSVWriter(fname, schema_out) as writer:
             for row in reader:
@@ -139,18 +142,15 @@ def write_stops():
                 lat, lon = row['stop_lat'], row['stop_lon']
                 if not lat or not lon:
                     continue
-                stopid = '%s-%s' % (
-                    direction2code(direction),
-                    geohash.encode(float(lat), float(lon)),
-                )
-                slug = '%s-%s' % (make_id('translinkni', stop, direction)
+                id = make_id('translinkni', stop, direction2code[direction])
                 writer.writerow(
-                    stop_id=stopid,
+                    stop_id=id,
                     stop_name=row['stop_name'],
                     stop_lat=row['stop_lat'],
                     stop_lon=row['stop_lon'],
                     stop_desc=row['road'],
                 )
+
 def write_trips_and_calendar():
     alltripids = []
     tripsfile = 'trips.txt'
@@ -168,10 +168,8 @@ def write_trips_and_calendar():
             # ie. each stop has a value for each trip, even if it is '...'
             agencyid, routeid = key
             row = g.next()
-            print row
             direction = row['route_direction']
             route_end = row['route_end']
-            print row['schedule']
             tripdata = (tuple(t.split(TRIPDATAPARTJOINER)[:3]) for t in row['schedule'].split(TRIPDATAJOINER) if t)
             service_id = row['service_id']
             # inbound and outbound routes have the same service id
@@ -225,7 +223,12 @@ def write_stop_times():
             direction = row['route_direction']
             stopid = make_id(agencyid, stopname, direction)
             stopno = row['stop_sequence']
-            stoptime_data = (tuple(t.split(TRIPDATAPARTJOINER)) for t in row['schedule'].split(TRIPDATAJOINER) if t)
+            headsign = '%s %s' % (row['route_short_name'], row['route_end'])
+            stoptime_data = (
+                tuple(
+                    t.split(TRIPDATAPARTJOINER)
+                ) for t in row['schedule'].split(TRIPDATAJOINER) if t
+            )
             for tripno, srvno, timeframe, time in stoptime_data:
                 #ignore any special instruction code for the minute
                 if time == '...':
@@ -233,13 +236,21 @@ def write_stop_times():
                     continue
                 else:
                     time = '%s:%s:00' % (time[:2], time[2:4])
-                for idx, daycode in split_timeframe(timeframe):
+                for idx, daycode in utils.split_timeframe(timeframe):
                     idx = str(idx)
                     tripid = make_trip_id(routeid, idx, tripno)
                     t = (tripid, time, time, stopid, stopno, stopname, None, None, None)
-                    writer.writerow(t)
+                    writer.writerow(
+                        trip_id=tripid, stop_id=stopid, stop_sequence=stopno,
+                        arrival_time=time, departure_time=time,
+                        stop_headsign=headsign,
+                    )
 
 def main():
+    #generate_metro_stops()
+    #write_stops()
     #write_routes()
-    write_trips_and_calendar()
+    #write_trips_and_calendar()
+    write_stop_times()
+
 

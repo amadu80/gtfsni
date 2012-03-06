@@ -49,14 +49,15 @@ rx_normalise = [
 ]
 
 def slugify(s):
+    s = str(s).strip().lower()
     if not s:
         return ''
-    s = s.lower()
     for patt, repl in rx_normalise:
         s = patt.sub(repl, s)
     return rx_hyphenate('-', rx_replace('', s).strip()).strip('-')
 
 direction2name = {0: 'Outbound', 1: 'Inbound'}
+direction2code = {'Outbound': 0, 'Inbound': 1, 'outbound': 0, 'inbound': 1}
 
 
 class MultiReplace:
