@@ -18,9 +18,17 @@ def get_pkg_data(path):
 def get_app_data(path, ensure_root_exists=True):
     fpath = pathjoin(APPLICATION_DATA_ROOT, path)
     if ensure_root_exists:
-        root = dirname(fpath)
+        if fpath.endswith('/'):
+            root = fpath
+        else:
+            root = dirname(fpath)
         if not pathexists(root):
             os.makedirs(root)
     return fpath
 
+def make_app_dir(path):
+    dirpath = pathjoin(APPLICATION_DATA_ROOT, path)
+    if not pathexists(dirpath):
+        os.makedirs(dirpath)
+    return dirpath
 

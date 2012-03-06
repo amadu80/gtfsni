@@ -2,6 +2,8 @@
 import os
 import csv
 from itertools import groupby
+import time
+
 import requests
 
 from gtfsni import get_pkg_data, get_app_data
@@ -246,11 +248,27 @@ def write_stop_times():
                         stop_headsign=headsign,
                     )
 
+def compress():
+    timestamp = time.strftime('%Y_%m_%d_%H%M%S', time.localtime())
+    archive = 'google_transit_translinkni_%s.zip' % timestamp
+    cxt = {
+        'archive': archive,
+        'src': get_app_data('gtfs/'),
+        'dest': get_app_data('dist/' + archive),
+    }
+    cmd = 'cd %(src)s && zip %(archive)s *.txt && mv %(archive)s %(dest)s'
+    cmd %= cxt
+    ret = os.system(cmd)
+    if ret:
+        raise OSError(cmd)
+    print 'created archive: %s' % cxt['dest']
+
 def main():
-    #generate_metro_stops()
-    #write_stops()
-    #write_routes()
-    #write_trips_and_calendar()
+    generate_metro_stops()
+    write_stops()
+    write_routes()
+    write_trips_and_calendar()
     write_stop_times()
+    compress()
 
 
