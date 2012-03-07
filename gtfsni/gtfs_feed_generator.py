@@ -266,7 +266,8 @@ def compress():
     }
     cmd = (
         'cd %(src)s && zip %(archive)s *.txt && mv %(archive)s %(dest)s'
-        ' && cd %(destroot)s && ln -s %(archive)s %(symlink)s'
+        ' && cd %(destroot)s && rm -f %(symlink)s'
+        ' && ln -s %(archive)s %(symlink)s'
     )
     cmd %= cxt
     ret = os.system(cmd)
@@ -275,11 +276,11 @@ def compress():
     print 'created archive: %s' % cxt['dest']
 
 def main():
-    #generate_metro_stops()
-    #write_stops()
-    #write_routes()
-    #write_trips_and_calendar()
-    #write_stop_times()
+    generate_metro_stops()
+    write_stops()
+    write_routes()
+    write_trips_and_calendar()
+    write_stop_times()
     write_agency()
     compress()
 

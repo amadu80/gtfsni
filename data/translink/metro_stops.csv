@@ -22,7 +22,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.6255,-5.93795,"Antrim Road, Salisbury Ave",Antrim Road,Inbound,gceybbk0eer8
 54.6474,-5.93483,"Antrim Road, Serpentine Road",Antrim Road,Outbound,gceybuq2hmwn
 54.647,-5.93455,"Antrim Road, Serpentine Road",Antrim Road,Inbound,gceybuntfgnu
-54.5559,-5.91536,"Ardcarn Drive, Bus Stop",,Outbound,gcey37se4hgg
+54.592474,-5.824567,"Ardcarn Drive, Bus Stop",Dundonald,Outbound,gceye6q8jyb0
 54.6145,-5.96617,"Ardoyne, Shops",Crumlin Road,Outbound,gcey8nr8d0tn
 54.6143,-5.96553,"Ardoyne, Shops",Crumlin Road,Inbound,gcey8q0p356m
 54.5924,-5.78635,"Ballybeen, Culross Drive",Culross Drive,Outbound,gceys64xb2bw
@@ -81,7 +81,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.6003,-5.87642,"Belmont Rd, Gelston's Corner",Belmont Road,Inbound,gceyd78vv3xs
 54.56041,-6.030258,"Belsteele Road, Glenwood",,Outbound,gcewqu2vkv9e
 54.560497,-6.030022,"Belsteele Road, Glenwood",,Inbound,gcewqu3jfmcd
-54.5559,-5.91536,"Belvoir Drive, Bus Stop",,Outbound,gcey37se4hgg
+54.553394,-5.921117,"Belvoir Drive, Bus Stop",Belvoir Road,Outbound,gcey370kecxn
 54.553402,-5.924958,"Belvoir Drive, Castlecoole Pk",,Outbound,gcey35jsd7pn
 54.551617,-5.932282,"Belvoir Drive, Primary School",,Outbound,gcey34b4py3y
 54.551804,-5.931732,"Belvoir Drive, Primary School",,Inbound,gcey34bek9k4
@@ -116,9 +116,9 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.66974,-5.939042,"Carnmoney, Cemetery",,Outbound,gcez0b76661m
 54.6305,-5.96122,"Carrs Glen, Joanmount",Ballysillan Road,Outbound,gceyb35jtx24
 54.6305,-5.96122,"Carrs Glen, Joanmount",Ballysillan Road,Inbound,gceyb35jtx24
-54.6685,-5.95372,"Carryduff, Church Road",Antrim Road,Outbound,gcez080eh709
-54.6683,-5.95283,"Carryduff, Church Road",Antrim Road,Inbound,gcez0813cj8p
-54.5559,-5.91536,"Castle Avenue, Bus stop",,Outbound,gcey37se4hgg
+54.515509,-5.884852,"Carryduff, Church Road",,Outbound,gcey4h4zc52q
+54.515509,-5.884852,"Carryduff, Church Road",,Inbound,gcey4h4zc52q
+54.637057,-5.931662,"Castle Avenue, Bus stop",Antrim Road,Outbound,gceyc42eym8h
 54.5992,-5.934096,"Castle Street, Castle Street",,Outbound,gcey8gqzms96
 54.5787,-5.87453,"Castlereagh Rd, Clonduff",Castlereagh Road,Outbound,gcey6rdrcx0g
 54.5786,-5.87458,"Castlereagh Rd, Clonduff",Castlereagh Road,Inbound,gcey6rdr2k7w
@@ -127,13 +127,13 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5854,-5.89038,"Castlereagh Rd, Ladas Drive",Castlereagh Road,Inbound,gcey9byz00n6
 54.6249,-5.94859,"Cavehill Road, Westland Rd",Westland Road,Outbound,gceyb8hm5g3u
 54.6249,-5.94859,"Cavehill Road, Westland Rd",Westland Road,Inbound,gceyb8hm5g3u
-54.6199,-5.85903,"Church Road, Tesco",Tesco,Outbound,gceydxjxfxqd
-54.6199,-5.85903,"Church Road, Tesco",Tesco,Inbound,gceydxjxfxqd
+54.65726,-5.923293,"Church Road, Tesco",Whiteabbey,Outbound,gceycnnc978x
+54.65726,-5.923293,"Church Road, Tesco",Whiteabbey,Inbound,gceycnnc978x
 54.6056583,-5.8601546,"Circular Road, CIYMS Grounds",,Outbound,gceydssv082p
 54.6056583,-5.8601546,"Circular Road, CIYMS Grounds",,Inbound,gceydssv082p
-54.5559,-5.91536,"Clarawood Park, Bus stop",,Outbound,gcey37se4hgg
-54.5559,-5.91536,"Clarawood Park, Bus stop",,Inbound,gcey37se4hgg
-54.5559,-5.91536,"Clarawood Road, Bus stop",,Outbound,gcey37se4hgg
+54.588095,-5.8687,"Clarawood Park, Bus stop",Castlereagh,Outbound,gceyd3qw9qkn
+54.588095,-5.8687,"Clarawood Park, Bus stop",Castlereagh,Inbound,gceyd3qw9qkn
+54.58552,-5.866952,"Clarawood Road, Bus stop",Castlereagh,Outbound,gceyd2zzdn7w
 54.6185,-5.96072,"Cliftonville Circus, Alliance Ave",Alliance Avenue,Outbound,gcey8qgxc4m5
 54.6184,-5.96103,"Cliftonville Circus, Alliance Ave",Alliance Avenue,Inbound,gcey8qgr1zty
 54.62154,-5.95526,"Cliftonville Circus, Old Park Road",,Outbound,gcey8rx983h3
@@ -141,7 +141,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.6143,-5.9384,"Cliftonville Road, Academy",Cliftonville Road,Outbound,gcey8y5z372j
 54.6143,-5.9384,"Cliftonville Road, Academy",Cliftonville Road,Inbound,gcey8y5z372j
 54.5754,-5.87957,"Clonduff Drive, Bus stop",Upper Knockbreda Road,Outbound,gcey6pnsspfv
-54.6081,-5.87544,"Cloughfern, Station Road",Station Road,Outbound,gceydm1ehrdk
+54.672977,-5.910926,"Cloughfern, Station Road",Whiteabbey,Outbound,gcez12zv1mw5
 54.6723,-5.913363,"Cloughfern, Whiteabbey Hospl",,Outbound,gcez12y10xku
 54.672726,-5.913559,"Cloughfern, Whiteabbey Hospl",,Inbound,gcez12vgsnff
 54.6049,-5.8801,"Connsbrook Avenue, Larkfield",Connsbrook Avenue,Outbound,gceydhw0xeps
@@ -162,13 +162,13 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.6091,-5.94384,"Crumlin Rd, Agnes Street",Crumlin Road,Inbound,gcey8trc46pd
 54.6221,-5.97691,"Crumlin Rd, Glenbank Corner",Crumlin Road,Outbound,gcewxzxszcky
 54.623,-5.97624,"Crumlin Rd, Glenbank Corner",Crumlin Road,Inbound,gcey8pb4p90q
-54.5559,-5.91536,"Dargan Crescent, Bus stop",,Outbound,gcey37se4hgg
+54.627544,-5.908083,"Dargan Crescent, Bus stop",,Outbound,gceyc89ue8q0
 54.668102,-5.912757,"Doagh Road, Abbots Cross",,Outbound,gcez12n2ybbf
 54.682762,-5.919479,"Doagh Road, Cherrylands",,Outbound,gcez169w4jst
 54.682762,-5.919479,"Doagh Road, Cherrylands",,Inbound,gcez169w4jst
 54.6665,-5.912591,"Doagh Road, Green End",,Outbound,gceycrwx6whw
 54.6665,-5.912591,"Doagh Road, Green End",,Inbound,gceycrwx6whw
-54.5884,-5.82685,"Doagh Road, King's Road",Kings Rd.,Outbound,gceye3t02x39
+54.678012,-5.91661,"Doagh Road, King's Road",Whiteabbey,Outbound,gcez13gdsbpy
 54.6379,-5.926325,"Donegall Park Avenue, Downview Gdns",,Outbound,gceyc4s8fdgb
 54.638138,-5.926994,"Donegall Park Avenue, Downview Gdns",,Inbound,gceyc4s45p0u
 54.5924,-5.96116,"Donegall Rd, Broadway",Falls Road,Outbound,gcey865pybuy
@@ -201,7 +201,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5945,-5.95684,"Falls Road, Royal Hospitals",Falls Road,Inbound,gcey86wk586j
 54.5898,-5.96881,"Falls Road, St James",Falls Road,Outbound,gcey81v8ssk9
 54.5898,-5.96881,"Falls Road, St James",Falls Road,Inbound,gcey81v8ssk9
-54.5559,-5.91536,"Fernagh Road, Bus stop",,Outbound,gcey37se4hgg
+54.676635,-5.909743,"Fernagh Road, Bus stop",Whiteabbey,Outbound,gcez198dmp80
 54.5665,-5.98993,"Finaghy Rd Nth, Orchardville",Finaghy Road North,Outbound,gcewrtw2bsb7
 54.5663,-5.98952,"Finaghy Rd Nth, Orchardville",Finaghy Road North,Inbound,gcewrtqxdpd4
 54.560402,-5.984388,"Finaghy Rd Sth, Health Centre",,Outbound,gcewru6m3shg
@@ -235,7 +235,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.6767,-5.96858,"Glengormley, Northcott Link Road",Northcott Link Road,Inbound,gcez01tff585
 54.681625,-5.910714,"Glenville, Monkstown Avenue",,Outbound,gcez16rzw3sn
 54.681625,-5.910714,"Glenville, Monkstown Avenue",,Inbound,gcez16rzw3sn
-54.5559,-5.91536,"Gunnell Hill, Bus stop",,Outbound,gcey37se4hgg
+54.651448,-5.928047,"Gunnell Hill, Bus stop",Whitewell Road,Outbound,gceychgrf2rc
 54.6004536,-5.9257829,"High Street, Skipper Street",City Centre,Outbound,gcey95syxq20
 54.66678,-5.969062,"Hightown Road, Turning Circle",,Outbound,gceybpv3nf2u
 54.66678,-5.969062,"Hightown Road, Turning Circle",,Inbound,gceybpv3nf2u
@@ -253,8 +253,8 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5456,-5.93039,"Hydebank, Milltown Road",Milltown Rd,Outbound,gcey319x5uu9
 54.5456,-5.93039,"Hydebank, Milltown Road",Milltown Rd,Inbound,gcey319x5uu9
 54.678726,-5.998112,"Hydepark, Trench Road",,Outbound,gcexp9bq9v79
-54.5559,-5.91536,"Jordanstown Road, Bus stop",,Outbound,gcey37se4hgg
-54.5559,-5.91536,"Jordanstown Road, Bus stop",,Inbound,gcey37se4hgg
+54.68975,-5.912227,"Jordanstown Road, Bus stop",,Outbound,gcez17yyghk4
+54.689882,-5.912814,"Jordanstown Road, Bus stop",,Inbound,gcez17yrtkym
 54.5814,-5.97978,"Kennedy Cen, Falls Road",Falls Road,Outbound,gcewxbjxtn2v
 54.5804,-5.98032,"Kennedy Cen, Falls Road",Falls Road,Inbound,gcewxbj3bkn0
 54.5915731,-5.8535886,"Kings Road, Barnetts Rd",,Outbound,gceydf1dcqzf
@@ -322,8 +322,8 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5571,-5.90252,"Newton Park, Colby Park",Newton Park,Inbound,gcey3evfjkd4
 54.5473,-5.92607,"Newtownbreda Road, Greer Park Ave",Newtownbreda Rd,Outbound,gcey34hc099y
 54.5473,-5.92607,"Newtownbreda Road, Greer Park Ave",Newtownbreda Rd,Inbound,gcey34hc099y
-54.6199,-5.85903,"Newtownbreda, Tesco",Tesco,Outbound,gceydxjxfxqd
-54.6199,-5.85903,"Newtownbreda, Tesco",Tesco,Inbound,gceydxjxfxqd
+54.550785,-5.921282,"Newtownbreda, Tesco",,Outbound,gcey368m25k5
+54.550785,-5.921282,"Newtownbreda, Tesco",,Inbound,gcey368m25k5
 54.6662307,-5.9038746,"Northern Regional College, FHE",Whiteabbey,Outbound,gceycxsvvu00
 54.6680207,-5.9019837,"Northern Regional College, FHE",Whiteabbey,Inbound,gcez18n23c9v
 54.603171,-5.9168726,"Odyssey, Complex",Sydenham Road,Outbound,gcey9k5qwbu4
@@ -336,7 +336,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5838,-5.92242,"Ormeau Road, Agincourt Avenue",Ormeau Road,Inbound,gcey90xmttg9
 54.5947,-5.92408,"Ormeau Road, Cromac Place",Cromac Place,Outbound,gcey94wjnvty
 54.5948,-5.92427,"Ormeau Road, Cromac Place",Cromac Place,Inbound,gcey94wjf825
-54.5559,-5.91536,"Owenreagh Drive, Bus stop",,Outbound,gcey37se4hgg
+54.666532,-5.912603,"Owenreagh Drive, Bus stop",Newtownabbey,Outbound,gceycrwxdk5t
 54.5887,-5.96252,"Park Centre, Donegall Road",Donegall Road,Outbound,gcey83d4ppnz
 54.5887,-5.96252,"Park Centre, Donegall Road",Donegall Road,Inbound,gcey83d4ppnz
 54.588785,-5.9633285,"Park Centre, Mall Entrance",,Outbound,gcey839dsr5f
@@ -350,7 +350,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.611392,-5.9030163,"Queens Road, Science Park",,Inbound,gcey9ttw3v24
 54.584393,-5.937599,"Queens University, Elmwood Ave",,Outbound,gcey8bu35um7
 54.584393,-5.937599,"Queens University, Elmwood Ave",,Inbound,gcey8bu35um7
-54.5559,-5.91536,"Raphael Street, Bus stop",,Outbound,gcey37se4hgg
+54.592966,-5.924957,"Raphael Street, Bus stop",Cromac Street,Outbound,gcey94me46rz
 54.6632103,-5.9179536,"Rathcoole, Diamond",Newtownabbey,Outbound,gceycr4sm8vy
 54.6634585,-5.9165722,"Rathcoole, Diamond",Newtownabbey,Inbound,gceycr5ttzhp
 54.6672638,-5.9283203,"Rathcoole, Primary School",Newtownabbey,Outbound,gceycpg5uhef
@@ -362,13 +362,13 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5769,-5.91813,"Ravenhill Rd, Ormeau Rd",Ormeau Road,Inbound,gcey3r6t3xd3
 54.627593,-5.8407676,"Redburn, Firmount Crescent",Holywood,Outbound,gceyg0duu32j
 54.6273399,-5.8404887,"Redburn, Firmount Crescent",Holywood,Inbound,gceyg0e56dpz
-54.5559,-5.91536,"Roseberry Road, Bus stop",,Outbound,gcey37se4hgg
+54.586258,-5.904851,"Roseberry Road, Bus stop",Ravenhill Avenue,Outbound,gcey99hhnbpb
 54.5709663,-5.9014271,"Rosetta Rd, Wynchurch Ave",Rosetta Road,Outbound,gcey3wqdyv3j
 54.5704,-5.91195,"Rosetta, Knockbreda Road",Knockbreda Road,Outbound,gcey3qpp9efe
 54.5703,-5.91274,"Rosetta, Knockbreda Road",Knockbreda Road,Inbound,gcey3qnrp1jx
 54.5697,-5.91386,"Rosetta, St John's Church",Ormeau Road,Outbound,gcey3qjet16k
 54.5705,-5.91411,"Rosetta, St John's Church",Ormeau Road,Inbound,gcey3qm2pnxb
-54.5559,-5.91536,"Rosslea Way, Bus stop",,Outbound,gcey37se4hgg
+54.665641,-5.917704,"Rosslea Way, Bus stop",Rathcoole,Outbound,gceycrdf7w04
 54.6883,-6.03793,"Roughfort, Turning Circle",Mallusk Road,Outbound,gcexneeq6n10
 54.6883,-6.03793,"Roughfort, Turning Circle",Mallusk Road,Inbound,gcexneeq6n10
 54.6012305,-5.9310883,"Royal Avenue, Castle Court",City Centre,Inbound,gcey95c55xh4
@@ -436,7 +436,7 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.6581123,-5.9237713,"Tesco, Abbey Retail Park Church Road",Newtownabbey,Outbound,gceycnnqw4eg
 54.6087824,-5.9069645,"Titanic Quarter, BMC",Queens Road,Outbound,gcey9t4xjyb5
 54.6086395,-5.9068787,"Titanic Quarter, BMC",Queens Road,Inbound,gcey9t4wru0p
-54.5559,-5.91536,"Tuleevin Drive, Bus stop",,Outbound,gcey37se4hgg
+54.675351,-5.915682,"Tuleevin Drive, Bus stop",Whiteabbey,Outbound,gcez13k7485u
 54.5852693,-5.8304733,"Tullycarnett, Leven Drive",Castlereagh,Outbound,gceye2fqhpsn
 54.5851822,-5.8308005,"Tullycarnett, Leven Drive",Castlereagh,Inbound,gceye2fjsx2n
 54.5496786,-6.0233402,"Twinbrook Est, St Mark's School",,Inbound,gcewqfmyyj05
@@ -456,18 +456,18 @@ stop_lat,stop_lon,stop_name,road,direction,geohash
 54.5945,-5.82784,"Upper Newtownards Rd, Rosepark",Upper Newtownards Road,Inbound,gceye6sk12rt
 54.6562271,-5.9330249,"Upper Whitewell, Throne Centre",,Outbound,gceybvzew7py
 54.6562271,-5.9330249,"Upper Whitewell, Throne Centre",,Inbound,gceybvzew7py
-54.5559,-5.91536,"Valley Leisure Cen, Bus stop",,Outbound,gcey37se4hgg
-54.5559,-5.91536,"Valley Leisure Cen, Bus stop",,Inbound,gcey37se4hgg
+54.66314,-5.930479,"Valley Leisure Cen, Bus stop",Newtownabbey,Outbound,gceycp1ecgf7
+54.663303,-5.930425,"Valley Leisure Cen, Bus stop",Newtownabbey,Inbound,gceycp1sg44x
 54.629773,-5.8945513,"Westbank Road, Stena Line",,Outbound,gceycc59qzzc
 54.629773,-5.8945513,"Westbank Road, Stena Line",,Inbound,gceycc59qzzc
 54.5811,-5.8663,"Whincroft Road, Bus stop",Whincroft Road,Outbound,gceyd80mcq3x
 54.581,-5.86625,"Whincroft Road, Bus stop",Whincroft Road,Inbound,gceyd80m67yg
 54.6786572,-5.8893585,"Whiteabbey, Village",Shore Road,Outbound,gcez1czw202p
 54.6784029,-5.889616,"Whiteabbey, Village",Shore Road,Inbound,gcez1czkf104
-54.5559,-5.91536,"Woodbreda Park, Bus stop",,Outbound,gcey37se4hgg
+54.554085,-5.90863,"Woodbreda Park, Bus stop",,Outbound,gcey3e32wfw0
 54.6079,-5.96312,"Woodvale Park, Bus stop",Woodvale Road,Outbound,gcey8m1f14r7
 54.6078,-5.96293,"Woodvale Park, Bus stop",Woodvale Road,Inbound,gcey8m1cmxtp
-54.5559,-5.91536,"Wynchurch Avenue, Bus stop",,Outbound,gcey37se4hgg
+54.569331,-5.899798,"Wynchurch Avenue, Bus stop",Knockbreda,Outbound,gcey3wpcksxf
 54.6099443,-5.9244096,"Yorkgate, Brougham Street",,Outbound,gcey9jmvzr2n
 54.6099443,-5.9244096,"Yorkgate, Brougham Street",,Inbound,gcey9jmvzr2n
 54.609,-5.92939,"Yorkgate, North Queen Street",North Queen Street,Outbound,gcey9j627pqm

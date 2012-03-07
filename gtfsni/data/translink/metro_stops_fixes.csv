@@ -162,11 +162,47 @@ stop_name,route_direction,stop_lat,stop_lon,road
 "Donegall Park Avenue, Downview Gdns",1,54.638138,-5.926994,
 "Doagh Road, Abbots Cross",0,54.668102,-5.912757,
 "Doagh Road, Abbots Cross",1,54.668102,-5.912757,
+"Doagh Road, King's Road",0,54.678012,-5.91661,Whiteabbey
 "Cloughfern, Whiteabbey Hospl",0,54.6723,-5.913363,
 "Cloughfern, Whiteabbey Hospl",1,54.672726,-5.913559,
+"Cloughfern, Station Road",0,54.672977,-5.910926,Whiteabbey
+"Cloughfern, Station Road",1,54.67321,-5.911968,Whiteabbey
 "Cliftonville Circus, Old Park Road",0,54.62154,-5.95526,
 "Cliftonville Circus, Old Park Road",1,54.62205,-5.956272,
 "Annadale Embkmnt, Annadale Cr",0,54.5708178,-5.9256649,
 "Annadale Embkmnt, Annadale Cr",1,54.5711225,-5.9263515,
 "Dunseverick Ave, Drumart Dr",0,54.5497999,-5.9271026,
+"Dargan Crescent, Bus stop",0,54.627544,-5.908083,
+"Carryduff, Church Road",0,54.515509,-5.884852,
+"Carryduff, Church Road",1,54.515509,-5.884852,
+"Newtownbreda, Tesco",0,54.550785,-5.921282,
+"Newtownbreda, Tesco",1,54.550785,-5.921282,
+"Tuleevin Drive, Bus stop",0,54.675351,-5.915682,Whiteabbey
+"Church Road, Tesco",0,54.65726,-5.923293,Whiteabbey
+"Church Road, Tesco",1,54.65726,-5.923293,Whiteabbey
+"Rosslea Way, Bus stop",0,54.665641,-5.917704,Rathcoole,
+"Rosslea Way, Bus stop",1,54.665641,-5.917704,Rathcoole,
+"Gunnell Hill, Bus stop",0,54.651448,-5.928047,Whitewell Road
+"Gunnell Hill, Bus stop",1,54.651448,-5.928047,Whitewell Road
+"Owenreagh Drive, Bus stop",0,54.666532,-5.912603,Newtownabbey
+"Owenreagh Drive, Bus stop",1,54.666532,-5.912603,Newtownabbey
+"Castle Avenue, Bus stop",0,54.637057,-5.931662,Antrim Road
+"Castle Avenue, Bus stop",1,54.637057,-5.931662,Antrim Road
+"Fernagh Road, Bus stop",0,54.676635,-5.909743,Whiteabbey
+"Fernagh Road, Bus stop",1,54.676635,-5.909743,Whiteabbey
+"Valley Leisure Cen, Bus stop",0,54.66314,-5.930479,Newtownabbey
+"Valley Leisure Cen, Bus stop",1,54.663303,-5.930425,Newtownabbey
+"Woodbreda Park, Bus stop",0,54.554085,-5.90863,,Saintfield Road
+"Woodbreda Park, Bus stop",1,54.55411,-5.908737,Saintfield Road
+"Clarawood Park, Bus stop",0,54.588095,-5.8687,Castlereagh
+"Clarawood Park, Bus stop",1,54.588095,-5.8687,Castlereagh
+"Clarawood Road, Bus stop",0,54.58552,-5.866952,Castlereagh
+"Clarawood Road, Bus stop",1,54.58552,-5.866952,Castlereagh
+"Jordanstown Road, Bus stop",0,54.68975,-5.912227,
+"Jordanstown Road, Bus stop",1,54.689882,-5.912814,
+"Raphael Street, Bus stop",0,54.592966,-5.924957,Cromac Street
+"Roseberry Road, Bus stop",0,54.586258,-5.904851,Ravenhill Avenue
+"Wynchurch Avenue, Bus stop",0,54.569331,-5.899798,Knockbreda
+"Ardcarn Drive, Bus Stop",0,54.592474,-5.824567,Dundonald
+"Belvoir Drive, Bus Stop",0,54.553394,-5.921117,Belvoir Road
 
