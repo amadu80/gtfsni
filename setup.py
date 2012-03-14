@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 
-__version__ = '0.0.2'
+__version__ = '0.0.4'
 
 readme = open("README").read()
 changes = open("docs/changes.rst").read()
@@ -15,8 +15,9 @@ setup(
     version=__version__,
     author="Jord Flanagan",
     author_email="contact@devopsni.com",
-    description="Create a Google Transit Feed from scraped Northern Ireland Transport data.",
+    description="Unofficial Google Transit Feed Generator for Northern Ireland.",
     long_description=long_description,
+    url="https://github.com/devopsni/gtfsni",
     download_url="http://pypi.python.org/packages/source/g/gtfsni/gtfsni-%s.tar.gz" % __version__,
     packages = find_packages(),
     package_data = {'gtfsni': [

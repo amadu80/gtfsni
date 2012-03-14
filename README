@@ -1,5 +1,45 @@
 
-gtfsni - Google Transit Feed Generator for Northern Ireland
-###########################################################
+######################################################################
+gtfsni - Unofficial Google Transit Feed Generator for Northern Ireland
+######################################################################
 
+A python application that generates GTFS (Google Transit Feed Specification)
+files for Translink (N.I.) transport routes. This is a basic proof of concept
+that derives its data from scraping the Translink web site. The only
+coordinate data available is for Belfast Citybus stops and so other services
+such as Ulsterbus and NIRail aren't supported at the moment.
+
+Requirements
+============
+
++ requests
++ python-geohash
++ svn+http://googletransitdatafeed.googlecode.com/svn/trunk/python/
+
+Install
+=======
+
+(Tested on linux only).
+
+Install from pypi with easy_install::
+
+    $ easy_install gtfsni
+
+or pip::
+
+    $ pip install gtfsni
+
+Scripts
+=======
+
+This this will install a number of scripts, some of which are from the
+googletransitdatafeed library. The gtfsni-specific scripts are:
+
++ gtfs_generate
++ gtfs_validate [GTFS_ZIP_FILE]
++ gtfs_view [GTFS_ZIP_FILE]
+
+
+Running ``gtfs_generate`` will create a zipped file (google_transit.zip) in
+a ``data/dist`` subdirectory of the current working directory.
 
