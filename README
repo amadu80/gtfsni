@@ -35,9 +35,9 @@ Scripts
 This this will install a number of scripts, some of which are from the
 googletransitdatafeed library. The gtfsni-specific scripts are:
 
-+ gtfs_generate
-+ gtfs_validate [GTFS_ZIP_FILE]
-+ gtfs_view [GTFS_ZIP_FILE]
++ gtfsni-generate
++ gtfsni-validate [GTFS_ZIP_FILE]
++ gtfsni-view [GTFS_ZIP_FILE]
 
 
 Running ``gtfs_generate`` will create a zipped file (google_transit.zip) in
