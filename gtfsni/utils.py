@@ -1,6 +1,7 @@
 
 import re
 import string
+import itertools
 
 NORMALISATIONS = reversed(sorted([
     ('road', 'rd'),
@@ -100,20 +101,12 @@ replace_names = MultiReplace(dict(zip(daynames, daycodes))).replace
 sdaycodes = ''.join(daycodes)
 daycode_atomic_weights = [2**i for i in range(7, 0, -1)]
 
-#TODO: use itertools
-def xcombinations(items, n):
-    if n==0:
-        yield []
-    else:
-        for i in xrange(len(items)):
-            #yield items[:i]
-            for cc in xcombinations(items[i+1:],n-1):
-                yield [items[i]]+cc
 
+combinations = itertools.combinations
 
-def idaycode_combos():
+def iter_daycode_combos():
     for i in xrange(1, 8):
-        for rng in xcombinations(daycodes, i):
+        for rng in combinations(daycodes, i):
             names = [daycode_to_name[code] for code in rng]
             id = ''.join(rng)
             # the weight gives precedence to days that are earlier in the 
@@ -121,8 +114,6 @@ def idaycode_combos():
             # earlier periods can be displayed before later periods
             # eg. Monday-Friday, Saturday, Sunday
             # eg. "Monday, Wednesday, Friday" and "Tuesday, Thursday, Saturday"
-            # it is up to the application to ensure that time periods for
-            # any given route *are* disjoint
             weight = sum(2**(7-daycodes.index(s)) for s in rng)
             if i == 1:
                 yield id, (weight, names[0])
@@ -130,7 +121,7 @@ def idaycode_combos():
                 if len(rng) > 2 and id in sdaycodes:
                     # consecutive days, eg. Monday to Thursday
                     displayname = '%s to %s' % (names[0], names[-1])
-                    # want to yield both options, eg. M-W and MTW
+                    # we output both options, eg. M-W and MTW
                     # this implies weight is not unique in resulting dataset
                     yield id, (weight, displayname)
                     yield '%s-%s' % (rng[0], rng[-1]), (weight, displayname)
@@ -139,7 +130,7 @@ def idaycode_combos():
                     displayname = ', '.join(names)
                     yield id, (weight, displayname)
 
-timeframe_combinations = dict(idaycode_combos())
+timeframe_combinations = dict(iter_daycode_combos())
 
 def get_time_period_name_and_weight(s):
     """
@@ -183,13 +174,14 @@ def get_time_period_name_and_weight(s):
 def split_timeframe(tf):
     """
     >>> list(split_timeframe('M-F'))
-    ['M', 'T', 'W', 'TH', 'F']
+    [(0, 'M'), (1, 'T'), (2, 'W'), (3, 'TH'), (4, 'F')]
     >>> list(split_timeframe('S'))
-    ['S']
+    [(5, 'S')]
     >>> list(split_timeframe('Th-Su'))
-    ['TH', 'F', 'S', 'SU']
+    [(3, 'TH'), (4, 'F'), (5, 'S'), (6, 'SU')]
     >>> list(split_timeframe('MFS'))
-    ['M', 'F', 'S']
+    [(0, 'M'), (4, 'F'), (5, 'S')]
+
     """
     name, weight = get_time_period_name_and_weight(tf)
     for i, (w, daycode) in enumerate(zip(daycode_atomic_weights, daycodes)):
